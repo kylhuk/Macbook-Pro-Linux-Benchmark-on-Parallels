@@ -1,0 +1,81 @@
+
+PTS_VERSION = 10.8.4
+PTS_CORE_VERSION = 10840
+PTS_RELEASE_DATE = 20220703
+PTS_CODENAME = Nesseby
+PTS_IS_CLIENT = 1
+PTS_IS_WEB_CLIENT = 
+PTS_IS_DEV_BUILD = 
+PTS_PHP_VERSION = 8.3.3
+QUICK_START = 
+PTS_CORE_PATH = /usr/share/phoronix-test-suite/pts-core/
+PTS_INTERNAL_OB_CACHE = /usr/share/phoronix-test-suite/ob-cache/
+PTS_IS_DAEMONIZED_SERVER_PROCESS = 1
+PTS_USER_PATH = /var/lib/phoronix-test-suite/
+PTS_CORE_STORAGE = /var/lib/phoronix-test-suite/core.pt2so
+PTS_DOWNLOAD_CACHE_PATH = /var/cache/phoronix-test-suite/download-cache/
+PTS_OPENBENCHMARKING_SCRATCH_PATH = /var/cache/phoronix-test-suite/openbenchmarking.org/
+PTS_TEST_PROFILE_PATH = /var/lib/phoronix-test-suite/test-profiles/
+PTS_TEST_SUITE_PATH = /var/lib/phoronix-test-suite/test-suites/
+PTS_CORE_STATIC_PATH = /usr/share/phoronix-test-suite/pts-core/static/
+PTS_SHARE_PATH = /usr/share/phoronix-test-suite/
+PTS_INIT_TIME = 1709946851
+PTS_COMMAND_PATH = /usr/share/phoronix-test-suite/pts-core/commands/
+PHP_BIN = php
+FIRST_RUN_ON_PTS_UPGRADE = 
+TIME_PTS_LAUNCHED = 1709946851
+IS_FIRST_RUN_TODAY = 
+TIME_SINCE_LAST_RUN = 1
+PTS_TEST_INSTALL_DEFAULT_PATH = /var/lib/phoronix-test-suite/installed-tests/
+PTS_SAVE_RESULTS_PATH = /var/lib/phoronix-test-suite/test-results/
+PTS_USER_LOCK = /var/lib/phoronix-test-suite/run-lock-117176
+PTS_STARTUP_TASK_PERFORMED = 1
+HAS_REFRESHED_OBO_LIST = 1
+
+Variables That Can Be Used As Result Identifiers / File Names:
+VIDEO_RESOLUTION = 1024x768
+VIDEO_CARD = Red Hat Virtio 1.0 GPU
+VIDEO_DRIVER = 
+OPENGL_DRIVER = 
+OPERATING_SYSTEM = Arch Linux ARM
+PROCESSOR = ARMv8 (4 Cores)
+MOTHERBOARD = Parallels ARM Virtual Machine v0.1 (19.3.0 54924 BIOS)
+CHIPSET = 
+KERNEL_VERSION = 6.7.8-1-aarch64-ARCH
+COMPILER = GCC 12.1.0
+HOSTNAME = Unknown
+
+Environment Variables (accessible via test scripts):
+PTS_VERSION = 10.8.4
+PTS_DIR = /usr/share/phoronix-test-suite/
+PTS_LAUNCHER = /usr/share/phoronix-test-suite/phoronix-test-suite
+PHP_BIN = php
+NUM_CPU_CORES = 4
+OMP_NUM_THREADS = 4
+NUM_CPU_PHYSICAL_CORES = 4
+NUM_CPU_PHYSICAL_CORES_CUBE = 1
+CPU_THREADS_PER_CORE = 1
+NUM_CPU_NODES = 1
+NUM_CPU_JOBS = 8
+SYS_MEMORY = 8192
+VIDEO_MEMORY = 64
+VIDEO_WIDTH = 1024
+VIDEO_HEIGHT = 768
+VIDEO_MONITOR_COUNT = 1
+VIDEO_MONITOR_LAYOUT = CENTER
+VIDEO_MONITOR_SIZES = 1024x768
+OPERATING_SYSTEM = arch
+OS_VERSION = 
+OS_ARCH = aarch64
+OS_TYPE = Linux
+CPU_FAMILY = 
+THIS_RUN_TIME = 1709946851
+DEBUG_REAL_HOME = /root/
+DEBUG_PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+SYSTEM_TYPE_ID = E
+SYSTEM_TYPE = Embedded
+TERMINAL_WIDTH = 120
+C_CXX_FLAGS_DEFAULT = -O3 -march=native
+GPU_DEVICE_ID = 1050
+
+

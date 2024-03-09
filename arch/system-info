@@ -1,0 +1,43 @@
+
+
+Phoronix Test Suite v10.8.4
+System Information
+
+
+  PROCESSOR:              ARMv8
+    Core Count:           4                
+
+  GRAPHICS:               Red Hat Virtio 1.0 GPU
+    Screen:               1024x768         
+
+  MOTHERBOARD:            Parallels ARM Virtual Machine v0.1
+    BIOS Version:         19.3.0 54924          
+    Audio:                Generic 1ab8          
+    Network:              Red Hat Virtio device 
+
+  MEMORY:                 8GB
+
+  DISK:                   137GB Armbian-1 SSD
+    File-System:          ext4             
+    Mount Options:        noatime rw       
+    Disk Scheduler:       MQ-DEADLINE      
+    Disk Details:         Block Size: 4096 
+
+  OPERATING SYSTEM:       Arch Linux ARM
+    Kernel:               6.7.8-1-aarch64-ARCH (aarch64)                            
+    Compiler:             GCC 12.1.0                                                
+    System Layer:         parallels                                                 
+    Security:             gather_data_sampling: Not affected                        
+                          + itlb_multihit: Not affected                             
+                          + l1tf: Not affected                                      
+                          + mds: Not affected                                       
+                          + meltdown: Not affected                                  
+                          + mmio_stale_data: Not affected                           
+                          + retbleed: Not affected                                  
+                          + spec_rstack_overflow: Not affected                      
+                          + spec_store_bypass: Mitigation of SSB disabled via prctl 
+                          + spectre_v1: Mitigation of __user pointer sanitization   
+                          + spectre_v2: Not affected                                
+                          + srbds: Not affected                                     
+                          + tsx_async_abort: Not affected                           
+

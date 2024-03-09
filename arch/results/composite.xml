@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>arch result</Title>
+    <LastModified>2024-03-09 02:21:45</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>parallels testing on Arch Linux ARM via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>arch result</Identifier>
+    <Hardware>Processor: ARMv8 (4 Cores), Motherboard: Parallels ARM Virtual Machine v0.1 (19.3.0 54924 BIOS), Memory: 8GB, Disk: 137GB Armbian-1 SSD, Graphics: Red Hat Virtio 1.0 GPU, Audio: Generic 1ab8, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Arch Linux ARM, Kernel: 6.7.8-1-aarch64-ARCH (aarch64), Compiler: GCC 12.1.0, File-System: ext4, Screen Resolution: 1024x768, System Layer: parallels</Software>
+    <User>root</User>
+    <TimeStamp>2024-03-09 01:44:22</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=aarch64-unknown-linux-gnu --disable-libssp --disable-libstdcxx-pch --disable-multilib --disable-werror --enable-__cxa_atexit --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-gnu-indirect-function --enable-gnu-unique-object --enable-languages=c,c++,fortran,go,lto,objc,obj-c++ --enable-lto --enable-plugin --enable-shared --enable-threads=posix --host=aarch64-unknown-linux-gnu --mandir=\/usr\/share\/man --with-arch=armv8-a --with-linker-hash-style=gnu","python":"Python 3.11.8","security":"gather_data_sampling: Not affected + itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + mmio_stale_data: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of __user pointer sanitization + spectre_v2: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/parboil-1.2.1</Identifier>
+    <Title>Parboil</Title>
+    <AppVersion>2.5</AppVersion>
+    <Arguments>cutcp omp_base large</Arguments>
+    <Description>Test: OpenMP CUTCP</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.02:0.02:0.03","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rodinia-1.3.2</Identifier>
+    <Title>Rodinia</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>OMP_LAVAMD</Arguments>
+    <Description>Test: OpenMP LavaMD</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value>247.046</Value>
+        <RawString>247.372:246.782:246.984</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"247.37:246.78:246.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rodinia-1.3.2</Identifier>
+    <Title>Rodinia</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>OMP_CFD</Arguments>
+    <Description>Test: OpenMP CFD Solver</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value>14.216</Value>
+        <RawString>14.246:14.206:14.197</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"14.25:14.21:14.20"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/x265-1.3.0</Identifier>
+    <Title>x265</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
+    <Description>Video Input: Bosphorus 4K</Description>
+    <Scale>Frames Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value>2.07</Value>
+        <RawString>2.05:2.09:2.08</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O3 -rdynamic -lpthread -lrt -ldl -lnuma"},"test-run-times":"292.56:286.71:288.12"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/x265-1.3.0</Identifier>
+    <Title>x265</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
+    <Description>Video Input: Bosphorus 1080p</Description>
+    <Scale>Frames Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value>8.89</Value>
+        <RawString>8.82:9.02:8.84</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O3 -rdynamic -lpthread -lrt -ldl -lnuma"},"test-run-times":"68.04:66.51:67.92"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/himeno-1.3.0</Identifier>
+    <Title>Himeno Benchmark</Title>
+    <AppVersion>3.0</AppVersion>
+    <Arguments></Arguments>
+    <Description>Poisson Pressure Solver</Description>
+    <Scale>MFLOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value>9405.915608</Value>
+        <RawString>9595.589293:9363.849052:9258.30848</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"},"test-run-times":"35.06:30.65:31.81"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/swet-1.0.0</Identifier>
+    <Title>Swet</Title>
+    <AppVersion>1.5.16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Average</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value>762492084</Value>
+        <RawString>758525426:754771028:774179798</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm -lpthread -lcurses -lrt"},"test-run-times":"33.71:33.35:33.51"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sysbench-1.1.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>1.0.20</AppVersion>
+    <Arguments>memory run</Arguments>
+    <Description>Test: Memory</Description>
+    <Scale>Events Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: \/home\/root\/phoronix-test-suite\/installed-tests\/pts\/sysbench-1.1.0\/sysbench: line 3: .\/src\/sysbench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sysbench-1.1.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>1.0.20</AppVersion>
+    <Arguments>cpu run</Arguments>
+    <Description>Test: CPU</Description>
+    <Scale>Events Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: \/home\/root\/phoronix-test-suite\/installed-tests\/pts\/sysbench-1.1.0\/sysbench: line 3: .\/src\/sysbench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/git-1.1.0</Identifier>
+    <Title>Git</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"install-footnote":"git version 2.44.0","test-run-times":"0.04:0.02:0.02","error":"The test run did not produce a result. The test run did not produce a result. The test run did not produce a result. E: error: Could not access '2.24.0'"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/brl-cad-1.5.0</Identifier>
+    <Title>BRL-CAD</Title>
+    <AppVersion>7.36</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>VGR Performance Metric</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>arch result</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O3"},"test-run-times":"0.04","error":"The test quit with a non-zero exit status. E: ERROR:  Could not find the BRL-CAD raytracer"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

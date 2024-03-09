@@ -1,0 +1,2893 @@
+cp: cannot stat 'brlcad-7.36.0/src/other/libpng/scripts/pnglibconf.h.prebuilt': No such file or directory
+mkdir: cannot create directory ‘brlcad-7.36.0/build’: File exists
+-- The C compiler identification is GNU 12.1.0
+-- The CXX compiler identification is GNU 12.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /tmp/pts-compiler-mask-brl-cad1.5.0/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /tmp/pts-compiler-mask-brl-cad1.5.0/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:106 (cmake_policy):
+  The OLD behavior for policy CMP0110 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- CMake version: 3.28.3
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void *
+-- Check size of void * - done
+-- Performing Test NOERROR_FLAG_C
+-- Performing Test NOERROR_FLAG_C - Success
+-- Performing Test NOERROR_FLAG_CXX
+-- Performing Test NOERROR_FLAG_CXX - Success
+**********************************************************
+*** Configuring BRL-CAD Release 7.36.0, Build 20240309 ***
+**********************************************************
+-- Performing Test WORKING__D_POSIX_C_SOURCE_200809L
+-- Performing Test WORKING__D_POSIX_C_SOURCE_200809L - Success
+-- Performing Test WORKING__D_XOPEN_SOURCE_700
+-- Performing Test WORKING__D_XOPEN_SOURCE_700 - Success
+***********************************************************
+*        Stage 1 of 9 - Top Level Configure Options       *
+***********************************************************
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Found OpenGL: /usr/lib/libOpenGL.so   
+***********************************************************
+*             Stage 2 of 9 - Check for Programs           *
+***********************************************************
+-- Found SHELL_SUPPORTED: /usr/bin/sh  
+-- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+***********************************************************
+*     Stage 3 of 9 - Check for Compiler Characteristics   *
+***********************************************************
+-- Performing Test PIPE_C_FLAG_FOUND
+-- Performing Test PIPE_C_FLAG_FOUND - Success
+-- Performing Test PIPE_CXX_FLAG_FOUND
+-- Performing Test PIPE_CXX_FLAG_FOUND - Success
+-- Performing Test FVISIBILITY_HIDDEN_C_FLAG_FOUND
+-- Performing Test FVISIBILITY_HIDDEN_C_FLAG_FOUND - Success
+-- Performing Test FVISIBILITY_HIDDEN_CXX_FLAG_FOUND
+-- Performing Test FVISIBILITY_HIDDEN_CXX_FLAG_FOUND - Success
+-- Performing Test FNO_STRICT_ALIASING_C_FLAG_FOUND
+-- Performing Test FNO_STRICT_ALIASING_C_FLAG_FOUND - Success
+-- Performing Test FNO_STRICT_ALIASING_CXX_FLAG_FOUND
+-- Performing Test FNO_STRICT_ALIASING_CXX_FLAG_FOUND - Success
+-- Performing Test FNO_COMMON_C_FLAG_FOUND
+-- Performing Test FNO_COMMON_C_FLAG_FOUND - Success
+-- Performing Test FNO_COMMON_CXX_FLAG_FOUND
+-- Performing Test FNO_COMMON_CXX_FLAG_FOUND - Success
+-- Performing Test FEXCEPTIONS_C_FLAG_FOUND
+-- Performing Test FEXCEPTIONS_C_FLAG_FOUND - Success
+-- Performing Test FEXCEPTIONS_CXX_FLAG_FOUND
+-- Performing Test FEXCEPTIONS_CXX_FLAG_FOUND - Success
+-- Performing Test FTEMPLATE_DEPTH_128_CXX_FLAG_FOUND
+-- Performing Test FTEMPLATE_DEPTH_128_CXX_FLAG_FOUND - Success
+-- Performing Test M64_C_FLAG_FOUND
+-- Performing Test M64_C_FLAG_FOUND - Failed
+-- Performing Test ARCH_X86_64_C_FLAG_FOUND
+-- Performing Test ARCH_X86_64_C_FLAG_FOUND - Failed
+-- Performing Test 64_C_FLAG_FOUND
+-- Performing Test 64_C_FLAG_FOUND - Failed
+-- Performing Test MABI_64_C_FLAG_FOUND
+-- Performing Test MABI_64_C_FLAG_FOUND - Failed
+-- Performing Test Q64_C_FLAG_FOUND
+-- Performing Test Q64_C_FLAG_FOUND - Failed
+-- Performing Test G_C_FLAG_FOUND
+-- Performing Test G_C_FLAG_FOUND - Success
+-- Performing Test G_CXX_FLAG_FOUND
+-- Performing Test G_CXX_FLAG_FOUND - Success
+-- Performing Test GGDB3_C_FLAG_FOUND
+-- Performing Test GGDB3_C_FLAG_FOUND - Success
+-- Performing Test GGDB3_CXX_FLAG_FOUND
+-- Performing Test GGDB3_CXX_FLAG_FOUND - Success
+-- Performing Test HAVE_INLINE_KEYWORD
+-- Performing Test HAVE_INLINE_KEYWORD - Success
+-- Performing Test WERROR_C_FLAG_FOUND
+-- Performing Test WERROR_C_FLAG_FOUND - Success
+-- Performing Test HAVE_PRINTF12_ATTRIBUTE
+-- Performing Test HAVE_PRINTF12_ATTRIBUTE - Success
+-- Performing Test HAVE_PRINTF23_ATTRIBUTE
+-- Performing Test HAVE_PRINTF23_ATTRIBUTE - Success
+-- Performing Test HAVE_SCANF23_ATTRIBUTE
+-- Performing Test HAVE_SCANF23_ATTRIBUTE - Success
+-- Performing Test HAVE_DEPRECATED_ATTRIBUTE
+-- Performing Test HAVE_DEPRECATED_ATTRIBUTE - Success
+-- Performing Test HAVE_DEPRECATED_DECLSPEC
+-- Performing Test HAVE_DEPRECATED_DECLSPEC - Failed
+-- Performing Test HAVE_NORETURN_ATTRIBUTE
+-- Performing Test HAVE_NORETURN_ATTRIBUTE - Success
+-- Performing Test HAVE_NORETURN_DECLSPEC
+-- Performing Test HAVE_NORETURN_DECLSPEC - Failed
+-- Performing Test HAVE_ANALYZER_NORETURN_ATTRIBUTE
+-- Performing Test HAVE_ANALYZER_NORETURN_ATTRIBUTE - Failed
+-- Performing Test HAVE_ALWAYS_INLINE_ATTRIBUTE
+-- Performing Test HAVE_ALWAYS_INLINE_ATTRIBUTE - Success
+-- Performing Test HAVE_FORCEINLINE
+-- Performing Test HAVE_FORCEINLINE - Failed
+-- Performing Test HAVE_CONST_ATTRIBUTE
+-- Performing Test HAVE_CONST_ATTRIBUTE - Failed
+-- Performing Test HAVE_PURE_ATTRIBUTE
+-- Performing Test HAVE_PURE_ATTRIBUTE - Failed
+-- Performing Test HAVE_COLD_ATTRIBUTE
+-- Performing Test HAVE_COLD_ATTRIBUTE - Success
+-- Performing Test HAVE_HOT_ATTRIBUTE
+-- Performing Test HAVE_HOT_ATTRIBUTE - Success
+-- Performing Test HAVE_NONNULL_ATTRIBUTE
+-- Performing Test HAVE_NONNULL_ATTRIBUTE - Success
+-- Performing Test HAVE_WARN_UNUSED_RESULT_ATTRIBUTE
+-- Performing Test HAVE_WARN_UNUSED_RESULT_ATTRIBUTE - Success
+-- Performing Test HAVE_FLATTEN_ATTRIBUTE
+-- Performing Test HAVE_FLATTEN_ATTRIBUTE - Success
+-- Performing Test QUNUSED_ARGUMENTS_C_FLAG_FOUND
+-- Performing Test QUNUSED_ARGUMENTS_C_FLAG_FOUND - Failed
+-- Performing Test QUNUSED_ARGUMENTS_CXX_FLAG_FOUND
+-- Performing Test QUNUSED_ARGUMENTS_CXX_FLAG_FOUND - Failed
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Performing Test O3_C_FLAG_FOUND
+-- Performing Test O3_C_FLAG_FOUND - Success
+-- Performing Test O3_CXX_FLAG_FOUND
+-- Performing Test O3_CXX_FLAG_FOUND - Success
+-- Performing Test FIPA_PTA_C_FLAG_FOUND
+-- Performing Test FIPA_PTA_C_FLAG_FOUND - Success
+-- Performing Test FIPA_PTA_CXX_FLAG_FOUND
+-- Performing Test FIPA_PTA_CXX_FLAG_FOUND - Success
+-- Performing Test FSTRENGTH_REDUCE_C_FLAG_FOUND
+-- Performing Test FSTRENGTH_REDUCE_C_FLAG_FOUND - Success
+-- Performing Test FSTRENGTH_REDUCE_CXX_FLAG_FOUND
+-- Performing Test FSTRENGTH_REDUCE_CXX_FLAG_FOUND - Success
+-- Performing Test FEXPENSIVE_OPTIMIZATIONS_C_FLAG_FOUND
+-- Performing Test FEXPENSIVE_OPTIMIZATIONS_C_FLAG_FOUND - Success
+-- Performing Test FEXPENSIVE_OPTIMIZATIONS_CXX_FLAG_FOUND
+-- Performing Test FEXPENSIVE_OPTIMIZATIONS_CXX_FLAG_FOUND - Success
+-- Performing Test FINLINE_FUNCTIONS_C_FLAG_FOUND
+-- Performing Test FINLINE_FUNCTIONS_C_FLAG_FOUND - Success
+-- Performing Test FINLINE_FUNCTIONS_CXX_FLAG_FOUND
+-- Performing Test FINLINE_FUNCTIONS_CXX_FLAG_FOUND - Success
+-- Performing Test FLTO_C_FLAG_FOUND
+-- Performing Test FLTO_C_FLAG_FOUND - Success
+-- Performing Test FLTO_CXX_FLAG_FOUND
+-- Performing Test FLTO_CXX_FLAG_FOUND - Success
+-- Performing Test FNO_OMIT_FRAME_POINTER_C_FLAG_FOUND
+-- Performing Test FNO_OMIT_FRAME_POINTER_C_FLAG_FOUND - Success
+-- Performing Test FNO_OMIT_FRAME_POINTER_CXX_FLAG_FOUND
+-- Performing Test FNO_OMIT_FRAME_POINTER_CXX_FLAG_FOUND - Success
+-- Performing Test HAVE_C_WUNUSED_CONST_VARIABLE
+-- Performing Test HAVE_C_WUNUSED_CONST_VARIABLE - Success
+***********************************************************
+*             Stage 4 of 9 - Check for Libraries          *
+***********************************************************
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test STL_LIB_TEST
+-- Performing Test STL_LIB_TEST - Success
+-- Found MPI_C: /usr/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Performing Test HAVE_NO_BUILTIN
+-- Performing Test HAVE_NO_BUILTIN - Success
+-- Looking for daemon in bsd
+-- Looking for daemon in bsd - found
+-- Looking for daemon
+-- Looking for daemon - found
+X11 detected and enabled
+-- Looking for cos in m
+-- Looking for cos in m - found
+-- Found UUID: /usr/lib/libuuid.so
+-- Looking for uuid_generate
+-- Looking for uuid_generate - found
+-- Looking for socket in socket
+-- Looking for socket in socket - not found
+-- Looking for gethostbyaddr in nsl
+-- Looking for gethostbyaddr in nsl - found
+-- Looking for socket in network
+-- Looking for socket in network - not found
+-- Looking for mallopt in c
+-- Looking for mallopt in c - found
+-- Looking for mallopt
+-- Looking for mallopt - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for yyless in l
+-- Looking for yyless in l - not found
+-- Performing Test HAVE_TIMESETEVENT
+-- Performing Test HAVE_TIMESETEVENT - Failed
+***********************************************************
+*               Stage 5 of 9 - Check for Headers          *
+***********************************************************
+-- Performing Test WORKING_SYS_WAIT
+-- Performing Test WORKING_SYS_WAIT - Success
+-- Looking for include file dirent.h
+-- Looking for include file dirent.h - found
+-- Looking for include file arpa/inet.h
+-- Looking for include file arpa/inet.h - found
+-- Looking for include file direct.h
+-- Looking for include file direct.h - not found
+-- Looking for include file dlfcn.h
+-- Looking for include file dlfcn.h - found
+-- Looking for include file dslib.h
+-- Looking for include file dslib.h - not found
+-- Looking for include file emmintrin.h
+-- Looking for include file emmintrin.h - not found
+-- Looking for include file getopt.h
+-- Looking for include file getopt.h - found
+-- Looking for include file GL/gl.h
+-- Looking for include file GL/gl.h - found
+-- Looking for include file gl/device.h
+-- Looking for include file gl/device.h - not found
+-- Looking for include file gl/glext.h
+-- Looking for include file gl/glext.h - not found
+-- Looking for include file gl/wglext.h
+-- Looking for include file gl/wglext.h - not found
+-- Looking for include file glob.h
+-- Looking for include file glob.h - found
+-- Looking for include file grp.h
+-- Looking for include file grp.h - found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file io.h
+-- Looking for include file io.h - not found
+-- Looking for include file libgen.h
+-- Looking for include file libgen.h - found
+-- Looking for include file mach/host_info.h
+-- Looking for include file mach/host_info.h - not found
+-- Looking for include file mach/mach_host.h
+-- Looking for include file mach/mach_host.h - not found
+-- Looking for include file mach/thread_policy.h
+-- Looking for include file mach/thread_policy.h - not found
+-- Looking for include file memory.h
+-- Looking for include file memory.h - found
+-- Looking for include file netdb.h
+-- Looking for include file netdb.h - found
+-- Looking for include file netinet/in.h
+-- Looking for include file netinet/in.h - found
+-- Looking for include file poll.h
+-- Looking for include file poll.h - found
+-- Looking for include file process.h
+-- Looking for include file process.h - not found
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for include file pthread_np.h
+-- Looking for include file pthread_np.h - not found
+-- Looking for include file pwd.h
+-- Looking for include file pwd.h - found
+-- Looking for include file rle.h
+-- Looking for include file rle.h - not found
+-- Looking for include file sched.h
+-- Looking for include file sched.h - found
+-- Looking for include file sgtty.h
+-- Looking for include file sgtty.h - found
+-- Looking for include file signal.h
+-- Looking for include file signal.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file strsafe.h
+-- Looking for include file strsafe.h - not found
+-- Looking for include file sys/_ioctl.h
+-- Looking for include file sys/_ioctl.h - not found
+-- Looking for include file sys/cpuset.h
+-- Looking for include file sys/cpuset.h - not found
+-- Looking for include file sys/file.h
+-- Looking for include file sys/file.h - found
+-- Looking for include file sys/ioctl.h
+-- Looking for include file sys/ioctl.h - found
+-- Looking for include file sys/ioctl_compat.h
+-- Looking for include file sys/ioctl_compat.h - not found
+-- Looking for include file sys/ipc.h
+-- Looking for include file sys/ipc.h - found
+-- Looking for include file sys/machd.h
+-- Looking for include file sys/machd.h - not found
+-- Looking for include file sys/mman.h
+-- Looking for include file sys/mman.h - found
+-- Looking for include file sys/mount.h
+-- Looking for include file sys/mount.h - found
+-- Looking for include file sys/param.h
+-- Looking for include file sys/param.h - found
+-- Looking for include file sys/prctl.h
+-- Looking for include file sys/prctl.h - found
+-- Looking for include file sys/resource.h
+-- Looking for include file sys/resource.h - found
+-- Looking for include file sys/sched.h
+-- Looking for include file sys/sched.h - not found
+-- Looking for include file sys/select.h
+-- Looking for include file sys/select.h - found
+-- Looking for include file sys/shm.h
+-- Looking for include file sys/shm.h - found
+-- Looking for include file sys/socket.h
+-- Looking for include file sys/socket.h - found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for include file sys/sysctl.h
+-- Looking for include file sys/sysctl.h - not found
+-- Looking for include file sys/sysinfo.h
+-- Looking for include file sys/sysinfo.h - found
+-- Looking for include file sys/sysmp.h
+-- Looking for include file sys/sysmp.h - not found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file sys/times.h
+-- Looking for include file sys/times.h - found
+-- Looking for include file sys/uio.h
+-- Looking for include file sys/uio.h - found
+-- Looking for include file sys/un.h
+-- Looking for include file sys/un.h - found
+-- Looking for include file sys/utsname.h
+-- Looking for include file sys/utsname.h - found
+-- Looking for include file sys/wait.h
+-- Looking for include file sys/wait.h - found
+-- Looking for include file syslog.h
+-- Looking for include file syslog.h - found
+-- Looking for include file ulocks.h
+-- Looking for include file ulocks.h - not found
+-- Looking for include file uuid.h
+-- Looking for include file uuid.h - not found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file uuid/uuid.h
+-- Looking for include file uuid/uuid.h - found
+-- Performing Test HAVE_LIBPROC_H
+-- Performing Test HAVE_LIBPROC_H - Failed
+-- Looking for include file termios.h
+-- Looking for include file termios.h - found
+-- Looking for include file termio.h
+-- Looking for include file termio.h - found
+-- Looking for C++ include istream
+-- Looking for C++ include istream - found
+-- Looking for C++ include limits
+-- Looking for C++ include limits - found
+-- Performing Test HAVE_BASENAME
+-- Performing Test HAVE_BASENAME - Success
+-- Performing Test HAVE_DIRNAME
+-- Performing Test HAVE_DIRNAME - Success
+***********************************************************
+*          Stage 6 of 9 - Check for Types/Structures      *
+***********************************************************
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_BLOCKS
+-- Performing Test HAVE_STRUCT_STAT_ST_BLOCKS - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_RDEV
+-- Performing Test HAVE_STRUCT_STAT_ST_RDEV - Success
+-- Performing Test HAVE_STRUCT_TIMESPEC
+-- Performing Test HAVE_STRUCT_TIMESPEC - Success
+-- Check size of socklen_t
+-- Check size of socklen_t - failed
+-- Check size of socklen_t
+-- Check size of socklen_t - failed
+-- Check size of socklen_t
+-- Check size of socklen_t - done
+-- Check size of cpu_set_t
+-- Check size of cpu_set_t - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of ptrdiff_t
+-- Check size of ptrdiff_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uintptr_t
+-- Check size of uintptr_t - done
+-- Check size of sig_t
+-- Check size of sig_t - failed
+-- Check size of u_char
+-- Check size of u_char - failed
+-- Check size of u_int
+-- Check size of u_int - failed
+-- Check size of u_long
+-- Check size of u_long - failed
+-- Check size of u_short
+-- Check size of u_short - failed
+-- Performing Test HAVE_THREAD_LOCAL
+-- Performing Test HAVE_THREAD_LOCAL - Success
+-- Checking C++11 support for "nullptr"
+-- Checking C++11 support for "nullptr": works
+-- Performing Test HAVE_PERCENT_Z
+-- Performing Test HAVE_PERCENT_Z - Success
+-- Performing Test HAVE_STATIC_ARRAYS
+-- Performing Test HAVE_STATIC_ARRAYS - Success
+***********************************************************
+*              Stage 7 of 9 - Check for Functions         *
+***********************************************************
+-- Looking for XQueryExtension
+-- Looking for XQueryExtension - not found
+-- Looking for _putenv_s
+-- Looking for _putenv_s - not found
+-- Looking for _splitpath
+-- Looking for _splitpath - not found
+-- Looking for _strtoi64
+-- Looking for _strtoi64 - not found
+-- Looking for alarm
+-- Looking for alarm - found
+-- Performing Test HAVE_DECL_ALARM
+-- Performing Test HAVE_DECL_ALARM - Success
+-- Looking for asinh
+-- Looking for asinh - found
+-- Performing Test HAVE_DECL_ASINH
+-- Performing Test HAVE_DECL_ASINH - Success
+-- Looking for confstr
+-- Looking for confstr - found
+-- Performing Test HAVE_DECL_CONFSTR
+-- Performing Test HAVE_DECL_CONFSTR - Success
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Performing Test HAVE_DECL_DLOPEN
+-- Performing Test HAVE_DECL_DLOPEN - Failed
+-- Looking for dladdr
+-- Looking for dladdr - found
+-- Performing Test HAVE_DECL_DLADDR
+-- Performing Test HAVE_DECL_DLADDR - Failed
+-- Looking for drand48
+-- Looking for drand48 - found
+-- Performing Test HAVE_DECL_DRAND48
+-- Performing Test HAVE_DECL_DRAND48 - Success
+-- Looking for fchmod
+-- Looking for fchmod - found
+-- Performing Test HAVE_DECL_FCHMOD
+-- Performing Test HAVE_DECL_FCHMOD - Success
+-- Looking for fdopen
+-- Looking for fdopen - found
+-- Performing Test HAVE_DECL_FDOPEN
+-- Performing Test HAVE_DECL_FDOPEN - Success
+-- Looking for fmemopen
+-- Looking for fmemopen - found
+-- Performing Test HAVE_DECL_FMEMOPEN
+-- Performing Test HAVE_DECL_FMEMOPEN - Success
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Performing Test HAVE_DECL_FSEEKO
+-- Performing Test HAVE_DECL_FSEEKO - Success
+-- Looking for fsync
+-- Looking for fsync - found
+-- Performing Test HAVE_DECL_FSYNC
+-- Performing Test HAVE_DECL_FSYNC - Success
+-- Looking for funopen
+-- Looking for funopen - not found
+-- Looking for getcwd
+-- Looking for getcwd - found
+-- Performing Test HAVE_DECL_GETCWD
+-- Performing Test HAVE_DECL_GETCWD - Success
+-- Looking for getegid
+-- Looking for getegid - found
+-- Performing Test HAVE_DECL_GETEGID
+-- Performing Test HAVE_DECL_GETEGID - Success
+-- Looking for getenv_s
+-- Looking for getenv_s - not found
+-- Looking for geteuid
+-- Looking for geteuid - found
+-- Performing Test HAVE_DECL_GETEUID
+-- Performing Test HAVE_DECL_GETEUID - Success
+-- Looking for gethostname
+-- Looking for gethostname - found
+-- Performing Test HAVE_DECL_GETHOSTNAME
+-- Performing Test HAVE_DECL_GETHOSTNAME - Success
+-- Looking for getloadavg
+-- Looking for getloadavg - found
+-- Performing Test HAVE_DECL_GETLOADAVG
+-- Performing Test HAVE_DECL_GETLOADAVG - Failed
+-- Looking for getopt_long
+-- Looking for getopt_long - found
+-- Performing Test HAVE_DECL_GETOPT_LONG
+-- Performing Test HAVE_DECL_GETOPT_LONG - Success
+-- Looking for getpid
+-- Looking for getpid - found
+-- Performing Test HAVE_DECL_GETPID
+-- Performing Test HAVE_DECL_GETPID - Success
+-- Looking for getprogname
+-- Looking for getprogname - not found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Performing Test HAVE_DECL_GETTIMEOFDAY
+-- Performing Test HAVE_DECL_GETTIMEOFDAY - Success
+-- Looking for htonl
+-- Looking for htonl - found
+-- Performing Test HAVE_DECL_HTONL
+-- Performing Test HAVE_DECL_HTONL - Success
+-- Looking for htonll
+-- Looking for htonll - not found
+-- Looking for hypot
+-- Looking for hypot - found
+-- Performing Test HAVE_DECL_HYPOT
+-- Performing Test HAVE_DECL_HYPOT - Success
+-- Looking for isascii
+-- Looking for isascii - found
+-- Performing Test HAVE_DECL_ISASCII
+-- Performing Test HAVE_DECL_ISASCII - Success
+-- Looking for isinf
+-- Looking for isinf - found
+-- Performing Test HAVE_DECL_ISINF
+-- Performing Test HAVE_DECL_ISINF - Failed
+-- Looking for isnan
+-- Looking for isnan - found
+-- Performing Test HAVE_DECL_ISNAN
+-- Performing Test HAVE_DECL_ISNAN - Failed
+-- Looking for logb
+-- Looking for logb - found
+-- Performing Test HAVE_DECL_LOGB
+-- Performing Test HAVE_DECL_LOGB - Success
+-- Looking for lrand48
+-- Looking for lrand48 - found
+-- Performing Test HAVE_DECL_LRAND48
+-- Performing Test HAVE_DECL_LRAND48 - Success
+-- Looking for lseek
+-- Looking for lseek - found
+-- Performing Test HAVE_DECL_LSEEK
+-- Performing Test HAVE_DECL_LSEEK - Success
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Performing Test HAVE_DECL_MKSTEMP
+-- Performing Test HAVE_DECL_MKSTEMP - Success
+-- Looking for modff
+-- Looking for modff - found
+-- Performing Test HAVE_DECL_MODFF
+-- Performing Test HAVE_DECL_MODFF - Success
+-- Looking for nextafter
+-- Looking for nextafter - found
+-- Performing Test HAVE_DECL_NEXTAFTER
+-- Performing Test HAVE_DECL_NEXTAFTER - Success
+-- Looking for nextafterf
+-- Looking for nextafterf - found
+-- Performing Test HAVE_DECL_NEXTAFTERF
+-- Performing Test HAVE_DECL_NEXTAFTERF - Success
+-- Looking for ntohll
+-- Looking for ntohll - not found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Performing Test HAVE_DECL_PIPE
+-- Performing Test HAVE_DECL_PIPE - Success
+-- Looking for popen
+-- Looking for popen - found
+-- Performing Test HAVE_DECL_POPEN
+-- Performing Test HAVE_DECL_POPEN - Success
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Performing Test HAVE_DECL_POSIX_MEMALIGN
+-- Performing Test HAVE_DECL_POSIX_MEMALIGN - Success
+-- Looking for proc_pidpath
+-- Looking for proc_pidpath - not found
+-- Looking for program_invocation_name
+-- Looking for program_invocation_name - found
+-- Performing Test HAVE_DECL_PROGRAM_INVOCATION_NAME
+-- Performing Test HAVE_DECL_PROGRAM_INVOCATION_NAME - Failed
+-- Looking for random
+-- Looking for random - found
+-- Performing Test HAVE_DECL_RANDOM
+-- Performing Test HAVE_DECL_RANDOM - Success
+-- Looking for realpath
+-- Looking for realpath - found
+-- Performing Test HAVE_DECL_REALPATH
+-- Performing Test HAVE_DECL_REALPATH - Success
+-- Looking for rint
+-- Looking for rint - found
+-- Performing Test HAVE_DECL_RINT
+-- Performing Test HAVE_DECL_RINT - Success
+-- Looking for setenv
+-- Looking for setenv - found
+-- Performing Test HAVE_DECL_SETENV
+-- Performing Test HAVE_DECL_SETENV - Success
+-- Looking for setpgid
+-- Looking for setpgid - found
+-- Performing Test HAVE_DECL_SETPGID
+-- Performing Test HAVE_DECL_SETPGID - Success
+-- Looking for setpriority
+-- Looking for setpriority - found
+-- Performing Test HAVE_DECL_SETPRIORITY
+-- Performing Test HAVE_DECL_SETPRIORITY - Success
+-- Looking for setsid
+-- Looking for setsid - found
+-- Performing Test HAVE_DECL_SETSID
+-- Performing Test HAVE_DECL_SETSID - Success
+-- Looking for shmat
+-- Looking for shmat - found
+-- Performing Test HAVE_DECL_SHMAT
+-- Performing Test HAVE_DECL_SHMAT - Success
+-- Looking for shmctl
+-- Looking for shmctl - found
+-- Performing Test HAVE_DECL_SHMCTL
+-- Performing Test HAVE_DECL_SHMCTL - Success
+-- Looking for shmdt
+-- Looking for shmdt - found
+-- Performing Test HAVE_DECL_SHMDT
+-- Performing Test HAVE_DECL_SHMDT - Success
+-- Looking for shmget
+-- Looking for shmget - found
+-- Performing Test HAVE_DECL_SHMGET
+-- Performing Test HAVE_DECL_SHMGET - Success
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Performing Test HAVE_DECL_SNPRINTF
+-- Performing Test HAVE_DECL_SNPRINTF - Success
+-- Looking for srand48
+-- Looking for srand48 - found
+-- Performing Test HAVE_DECL_SRAND48
+-- Performing Test HAVE_DECL_SRAND48 - Success
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Performing Test HAVE_DECL_STRCASECMP
+-- Performing Test HAVE_DECL_STRCASECMP - Failed
+-- Looking for strdup
+-- Looking for strdup - found
+-- Performing Test HAVE_DECL_STRDUP
+-- Performing Test HAVE_DECL_STRDUP - Success
+-- Looking for strlcat
+-- Looking for strlcat - not found
+-- Looking for strlcpy
+-- Looking for strlcpy - not found
+-- Looking for strncasecmp
+-- Looking for strncasecmp - found
+-- Performing Test HAVE_DECL_STRNCASECMP
+-- Performing Test HAVE_DECL_STRNCASECMP - Failed
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Performing Test HAVE_DECL_STRTOLL
+-- Performing Test HAVE_DECL_STRTOLL - Success
+-- Looking for sync
+-- Looking for sync - found
+-- Performing Test HAVE_DECL_SYNC
+-- Performing Test HAVE_DECL_SYNC - Success
+-- Looking for sysctl
+-- Looking for sysctl - not found
+-- Looking for sysmp
+-- Looking for sysmp - not found
+-- Looking for time
+-- Looking for time - found
+-- Performing Test HAVE_DECL_TIME
+-- Performing Test HAVE_DECL_TIME - Failed
+-- Looking for toascii
+-- Looking for toascii - found
+-- Performing Test HAVE_DECL_TOASCII
+-- Performing Test HAVE_DECL_TOASCII - Success
+-- Looking for tzset
+-- Looking for tzset - found
+-- Performing Test HAVE_DECL_TZSET
+-- Performing Test HAVE_DECL_TZSET - Failed
+-- Looking for uname
+-- Looking for uname - found
+-- Performing Test HAVE_DECL_UNAME
+-- Performing Test HAVE_DECL_UNAME - Failed
+-- Looking for vfork
+-- Looking for vfork - found
+-- Performing Test HAVE_DECL_VFORK
+-- Performing Test HAVE_DECL_VFORK - Failed
+-- Looking for vsnprintf
+-- Looking for vsnprintf - found
+-- Performing Test HAVE_DECL_VSNPRINTF
+-- Performing Test HAVE_DECL_VSNPRINTF - Success
+-- Looking for vsscanf
+-- Looking for vsscanf - found
+-- Performing Test HAVE_DECL_VSSCANF
+-- Performing Test HAVE_DECL_VSSCANF - Success
+-- Looking for wait
+-- Looking for wait - found
+-- Performing Test HAVE_DECL_WAIT
+-- Performing Test HAVE_DECL_WAIT - Success
+-- Looking for writev
+-- Looking for writev - found
+-- Performing Test HAVE_DECL_WRITEV
+-- Performing Test HAVE_DECL_WRITEV - Success
+-- Performing Test WORKING_ALLOCA
+-- Performing Test WORKING_ALLOCA - Success
+-- Looking for kill
+-- Looking for kill - found
+-- Performing Test HAVE_DECL_KILL
+-- Performing Test HAVE_DECL_KILL - Success
+-- Looking for fileno
+-- Looking for fileno - found
+-- Performing Test HAVE_DECL_FILENO
+-- Performing Test HAVE_DECL_FILENO - Success
+-- Looking for daemon
+-- Looking for daemon - found
+-- Performing Test HAVE_DECL_DAEMON
+-- Performing Test HAVE_DECL_DAEMON - Failed
+-- Performing Test HAVE_WORKING_DAEMON_FUNCTION
+-- Performing Test HAVE_WORKING_DAEMON_FUNCTION - Failed
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Performing Test HAVE_DECL_SYSCONF
+-- Performing Test HAVE_DECL_SYSCONF - Success
+-- Performing Test HAVE_SYSCONF_AVPHYS
+-- Performing Test HAVE_SYSCONF_AVPHYS - Success
+-- Looking for ntohll
+-- Looking for ntohll - not found
+-- Looking for htonll
+-- Looking for htonll - not found
+-- Performing Test HAVE_WORKING_REALPATH
+-- Performing Test HAVE_WORKING_REALPATH - Success
+-- Performing Test HAVE_GETFULLPATHNAME
+-- Performing Test HAVE_GETFULLPATHNAME - Failed
+-- Performing Test HAVE_GETPROCESSTIMES
+-- Performing Test HAVE_GETPROCESSTIMES - Failed
+-- Performing Test HAVE_GETCURRENTPROCESSID
+-- Performing Test HAVE_GETCURRENTPROCESSID - Failed
+-- Looking for lrint
+-- Looking for lrint - found
+-- Performing Test HAVE_DECL_LRINT
+-- Performing Test HAVE_DECL_LRINT - Success
+-- Looking for tgamma
+-- Looking for tgamma - found
+-- Performing Test HAVE_DECL_TGAMMA
+-- Performing Test HAVE_DECL_TGAMMA - Success
+-- Looking for gethostbyaddr
+-- Looking for gethostbyaddr - found
+-- Performing Test HAVE_DECL_GETHOSTBYADDR
+-- Performing Test HAVE_DECL_GETHOSTBYADDR - Success
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Performing Test HAVE_DECL_GETHOSTBYNAME
+-- Performing Test HAVE_DECL_GETHOSTBYNAME - Success
+-- Performing Test HAVE_CXX_LOGB
+-- Performing Test HAVE_CXX_LOGB - Success
+***********************************************************
+*          Stage 8 of 9 - Check for System Services       *
+***********************************************************
+-- Performing Test W__C_FLAG_FOUND
+-- Performing Test W__C_FLAG_FOUND - Failed
+-- Performing Test W__CXX_FLAG_FOUND
+-- Performing Test W__CXX_FLAG_FOUND - Failed
+-- Performing Test W0_C_FLAG_FOUND
+-- Performing Test W0_C_FLAG_FOUND - Failed
+-- Performing Test W0_CXX_FLAG_FOUND
+-- Performing Test W0_CXX_FLAG_FOUND - Failed
+-- Performing Test W_C_FLAG_FOUND
+-- Performing Test W_C_FLAG_FOUND - Success
+-- Performing Test W_CXX_FLAG_FOUND
+-- Performing Test W_CXX_FLAG_FOUND - Success
+-- Looking for time.h
+-- Looking for time.h - found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for ansidecl.h
+-- Looking for ansidecl.h - found
+-- Looking for arpa/nameser.h
+-- Looking for arpa/nameser.h - found
+-- Looking for ctype.h
+-- Looking for ctype.h - found
+-- Looking for dl.h
+-- Looking for dl.h - not found
+-- Looking for errno.h
+-- Looking for errno.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for float.h
+-- Looking for float.h - found
+-- Looking for fp_class.h
+-- Looking for fp_class.h - not found
+-- Looking for ieeefp.h
+-- Looking for ieeefp.h - not found
+-- Looking for inttypes.h.h
+-- Looking for inttypes.h.h - not found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for malloc.h
+-- Looking for malloc.h - found
+-- Looking for math.h
+-- Looking for math.h - found
+-- Looking for nan.h
+-- Looking for nan.h - not found
+-- Looking for ndir.h
+-- Looking for ndir.h - not found
+-- Looking for resolv.h
+-- Looking for resolv.h - found
+-- Looking for sys/ndir.h
+-- Looking for sys/ndir.h - not found
+-- Looking for sys/timeb.h
+-- Looking for sys/timeb.h - found
+-- Looking for finite
+-- Looking for finite - found
+-- Looking for printf
+-- Looking for printf - found
+-- Looking for fprintf
+-- Looking for fprintf - found
+-- Looking for sprintf
+-- Looking for sprintf - found
+-- Looking for vfprintf
+-- Looking for vfprintf - found
+-- Looking for vsprintf
+-- Looking for vsprintf - found
+-- Looking for ftime
+-- Looking for ftime - found
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for localtime
+-- Looking for localtime - found
+-- Looking for signal
+-- Looking for signal - found
+-- Looking for sscanf
+-- Looking for sscanf - found
+-- Looking for stat
+-- Looking for stat - found
+-- Looking for strndup
+-- Looking for strndup - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strftime
+-- Looking for strftime - found
+-- Performing Test HAVE_VA_COPY
+-- Performing Test HAVE_VA_COPY - Success
+-- Looking for __va_copy
+-- Looking for __va_copy - not found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for pow in m
+-- Looking for pow in m - found
+-- Looking for locale.h
+-- Looking for locale.h - found
+-- Looking for xlocale.h
+-- Looking for xlocale.h - not found
+-- Looking for asctime
+-- Looking for asctime - found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for mktime
+-- Looking for mktime - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for munmap
+-- Looking for munmap - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of short
+-- Check size of short - done
+-- Performing Test O3_COMPILER_FLAG
+-- Performing Test O3_COMPILER_FLAG - Success
+-- Performing Test HAVE_STACK_SIZE_FLAG
+-- Performing Test HAVE_STACK_SIZE_FLAG - Success
+-- Performing Test COMPILER_SUPPORTS_CXX17
+-- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+-- Found ZLIB: zlib (found version "1.2.13.f-brl")  
+-- Found PNG: /usr/lib/libpng.so (found version "1.6.43") 
+-- Looking for cos in m
+-- Looking for cos in m - found
+-- Looking for uuid_generate
+-- Looking for uuid_generate - not found
+-- Found ZLIB: zlib   
+-- Performing Test HAVE_O3
+-- Performing Test HAVE_O3 - Success
+--- Checking operating system support for file symlinking
+--- Checking operating system support for file symlinking - Supported
+-- Found TCL: tcl  
+-- Found TCLTK: tcl  
+-- Found TK: tk  
+***********************************************************
+*        Stage 9 of 9 - Output and Summarize Config       *
+***********************************************************
+-- Adding src...
+-- Adding src/libbu...
+-- Performing Test HAVE_FPIC
+-- Performing Test HAVE_FPIC - Success
+-- Adding src/libbu - done
+-- Adding src/libbn...
+-- Adding src/libbn - done
+-- Adding src/libbv...
+-- Adding src/libbv - done
+-- Adding src/libbg...
+-- Adding src/libbg - done
+-- Adding src/libnmg...
+-- Adding src/libnmg - done
+-- Adding src/libbrep...
+-- Adding src/libbrep - done
+-- Adding src/librt...
+-- Adding src/librt - done
+-- Adding src/libwdb...
+-- Adding src/libwdb - done
+-- Adding src/libpkg...
+-- Adding src/libpkg - done
+-- Adding src/libgcv...
+-- Found ASSETIMPORT: /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/include/assetimport;/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/ext/assetimport  
+assetimport plugin FOUND and ENABLED
+-- Performing Test HAVE_UNIQUE_PTR
+-- Performing Test HAVE_UNIQUE_PTR - Success
+-- Found LEMON: lemon  
+-- Found RE2C: re2c  
+-- Found PERPLEX: perplex  
+-- Adding src/libgcv - done
+-- Adding src/libanalyze...
+-- Adding src/libanalyze - done
+-- Adding src/liboptical...
+-- Adding src/liboptical - done
+-- Adding src/libged...
+-- Could NOT find ADAPTAGRAMS (missing: AVOID_LIBRARY AVOID_INCLUDE_DIR) 
+-- Adding src/libged - done
+-- Adding src/libdm...
+-- Adding src/libdm - done
+-- Adding src/libfft...
+-- Adding src/libfft - done
+-- Adding src/libicv...
+-- Adding src/libicv - done
+-- Adding src/libpc...
+-- Adding src/libpc - done
+-- Adding src/libqtcad...
+-- Adding src/libqtcad - done
+-- Adding src/libtclcad...
+-- Adding src/libtclcad - done
+-- Adding src/libtermio...
+-- Adding src/libtermio - done
+-- Adding src/brlman...
+-- Adding src/brlman - done
+-- Adding src/burst...
+-- Performing Test NO_STRICT_PROTO_COMPILER_FLAG
+-- Performing Test NO_STRICT_PROTO_COMPILER_FLAG - Failed
+-- Adding src/burst - done
+-- Adding src/bwish...
+-- Adding src/bwish - done
+-- Adding src/conv...
+-- Adding src/conv/3dm...
+-- Adding src/conv/3dm - done
+-- Adding src/conv/asc...
+-- Adding src/conv/asc - done
+-- Adding src/conv/gcv...
+-- Adding src/conv/gcv - done
+-- Adding src/conv/step...
+-- Performing Test WD4065_CXX_FLAG_FOUND
+-- Performing Test WD4065_CXX_FLAG_FOUND - Failed
+-- Performing Test WD4251_CXX_FLAG_FOUND
+-- Performing Test WD4251_CXX_FLAG_FOUND - Failed
+-- Performing Test WD4800_CXX_FLAG_FOUND
+-- Performing Test WD4800_CXX_FLAG_FOUND - Failed
+-- Performing Test WNO_IGNORED_QUALIFIERS_CXX_FLAG_FOUND
+-- Performing Test WNO_IGNORED_QUALIFIERS_CXX_FLAG_FOUND - Success
+-- Could NOT find STEPCODE (missing: STEPCODE_BASE_DIR STEPCODE_BASE_LIBRARY) 
+-- Adding src/conv/step - done
+-- Adding src/conv/csg...
+-- Adding src/conv/csg - done
+-- Adding src/conv/gltf...
+-- Adding src/conv/gltf - done
+-- Adding src/conv/iges...
+-- Adding src/conv/iges - done
+-- Adding src/conv/intaval...
+-- Adding src/conv/intaval - done
+-- Adding src/conv/ply...
+-- Adding src/conv/ply - done
+-- Adding src/conv/raw...
+-- Adding src/conv/raw - done
+-- Adding src/conv/vdeck...
+-- Adding src/conv/vdeck - done
+-- Adding src/conv - done
+-- Adding src/fb...
+-- Adding src/fb - done
+-- Adding src/fbserv...
+-- Adding src/fbserv - done
+-- Adding src/gtools...
+-- Adding src/gtools - done
+-- Adding src/nirt...
+-- Adding src/nirt - done
+-- Adding src/proc-db...
+-- Adding src/proc-db - done
+-- Adding src/rt...
+-- Adding src/rt - done
+-- Adding src/art...
+-- Could NOT find Appleseed (missing: Appleseed_INCLUDE_DIR Appleseed_LIBRARY) 
+'art' appleseed ray tracing is DISABLED
+-- Adding src/art - done
+-- Adding src/shapes...
+-- Adding src/shapes - done
+-- Adding src/sig...
+-- Adding src/sig - done
+-- Adding src/util...
+-- Adding src/util - done
+-- Adding src/qged...
+-- Adding src/qged - done
+-- Adding src/external...
+-- Performing Test WNO_MAYBE_UNINITIALIZED_CXX_FLAG_FOUND
+-- Performing Test WNO_MAYBE_UNINITIALIZED_CXX_FLAG_FOUND - Success
+-- Performing Test WNO_UNINITIALIZED_CXX_FLAG_FOUND
+-- Performing Test WNO_UNINITIALIZED_CXX_FLAG_FOUND - Success
+-- Adding src/external - done
+-- Adding src/remrt...
+-- Adding src/remrt - done
+-- Adding src/tclscripts...
+-- Adding src/tclscripts - done
+-- Adding src/adrt...
+-- Adding src/adrt - done
+-- Adding src/isst...
+-- Adding src/isst - done
+-- Adding src/rtwizard...
+-- Adding src/rtwizard - done
+-- Adding src/archer...
+-- Adding src/archer - done
+-- Adding src/mged...
+-- Adding src/mged - done
+-- Adding src - done
+-- Adding include...
+-- Adding include - done
+-- Adding sh...
+-- Adding sh - done
+-- Adding misc...
+-- Adding misc - done
+-- Adding doc...
+-- Adding doc/docbook...
+-- Adding doc/docbook - done
+-- Adding doc/html...
+-- Adding doc/html - done
+-- Adding doc/legal...
+-- Adding doc/legal - done
+-- Adding doc - done
+-- Adding db...
+-- Adding db - done
+-- Adding bench...
+-- Adding bench - done
+-- Adding regress...
+-- Performing Test HAVE_NO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAVE_NO_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test HAVE_FUZZER
+-- Performing Test HAVE_FUZZER - Failed
+-- Performing Test HAVE_LLVMFUZZER
+-- Performing Test HAVE_LLVMFUZZER - Failed
+-- Adding regress - done
+
+
+------------ BRL-CAD Release 7.36.0, Build 20240309 - Release Build ------------
+
+        Prefix: /usr/brlcad/rel-7.36.0
+      Binaries: /usr/brlcad/rel-7.36.0/bin
+     Libraries: /usr/brlcad/rel-7.36.0/lib
+  Manual pages: /usr/brlcad/rel-7.36.0/share/man
+Data resources: /usr/brlcad/rel-7.36.0/share
+ 
+CC       = /tmp/pts-compiler-mask-brl-cad1.5.0/cc
+CXX      = /tmp/pts-compiler-mask-brl-cad1.5.0/c++
+CFLAGS   = -std=c11 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -pipe
+           -fvisibility=hidden -fno-strict-aliasing -fno-common -fexceptions -g
+           -ggdb3 -O3 -fipa-pta -fstrength-reduce -fexpensive-optimizations
+           -finline-functions -flto -fno-omit-frame-pointer
+CXXFLAGS = -std=c++14 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -pipe
+           -fvisibility=hidden -fno-strict-aliasing -fno-common -fexceptions
+           -ftemplate-depth-128 -g -ggdb3 -O3 -fipa-pta -fstrength-reduce
+           -fexpensive-optimizations -finline-functions -flto
+           -fno-omit-frame-pointer
+LDFLAGS  = -g -ggdb3
+ 
+ 
+Compile Tcl ........................: ON
+Compile Tk .........................: ON
+Compile Itcl/Itk ...................: ON
+Compile Iwidgets ...................: ON
+Compile libpng .....................: OFF
+Compile libregex ...................: ON
+Compile zlib .......................: ON
+Compile STEPcode....................: ON
+ 
+OpenGL support (optional) ..........: ON
+X11 support (optional) .............: ON
+Qt support (optional) ..............: OFF
+Run-time debuggability (optional) ..: ON
+ 
+Build 32/64-bit release ............: 64BIT (Auto)
+Build with optimization ............: ON
+Build static libraries .............: ON
+Build dynamic libraries ............: ON
+Install example geometry models ....: ON
+Generate extra docs ................: ON (html/man)
+ 
+Elapsed configuration time: 28 seconds 
+CMake Deprecation Warning at CMakeLists.txt:2505 (cmake_policy):
+  The OLD behavior for policy CMP0110 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Configuring done (28.2s)
+-- Generating done (0.8s)
+-- Build files have been written to: /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build
+[  0%] Generating toplevel_DOCFILES.sentinel
+
+Build Time:  Sat Mar 09 02:41:41 2024
+
+[  0%] Built target toplevel_DOCFILES_cp
+[  0%] Built target timestamp
+[  0%] Creating directories for 'ZLIB_BLD'
+[  0%] Creating directories for 'NETPBM_BLD'
+[  0%] Creating directories for 'REGEX_BLD'
+[  1%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/y2038/time64.c.o
+[  1%] No download step for 'ZLIB_BLD'
+[  1%] No download step for 'REGEX_BLD'
+[  1%] No download step for 'NETPBM_BLD'
+[  1%] No update step for 'ZLIB_BLD'
+[  1%] No update step for 'NETPBM_BLD'
+[  1%] No update step for 'REGEX_BLD'
+[  1%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/affinity.c.o
+[  1%] No patch step for 'ZLIB_BLD'
+[  1%] No patch step for 'NETPBM_BLD'
+[  1%] No patch step for 'REGEX_BLD'
+[  1%] Performing configure step for 'ZLIB_BLD'
+[  2%] Performing configure step for 'NETPBM_BLD'
+[  2%] Performing configure step for 'REGEX_BLD'
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/argv.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/avs.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/b64.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/backtrace.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/badmagic.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/bitv.c.o
+-- REGEX_BLD configure command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/REGEX_BLD-prefix/src/REGEX_BLD-stamp/REGEX_BLD-configure-*.log
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/bomb.c.o
+[  2%] Performing build step for 'REGEX_BLD'
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/booleanize.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/brlcad_path.c.o
+[  2%] Building CXX object src/libbu/CMakeFiles/libbu-obj.dir/bu_init.cpp.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/cmd.c.o
+[  2%] Building CXX object src/libbu/CMakeFiles/libbu-obj.dir/color.cpp.o
+-- ZLIB_BLD configure command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/ZLIB_BLD-prefix/src/ZLIB_BLD-stamp/ZLIB_BLD-configure-*.log
+[  2%] Performing build step for 'ZLIB_BLD'
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/convert.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/crashreport.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/ctype.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/dir.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/dirent.c.o
+[  2%] Building CXX object src/libbu/CMakeFiles/libbu-obj.dir/damlevlim.cpp.o
+-- NETPBM_BLD configure command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/NETPBM_BLD-prefix/src/NETPBM_BLD-stamp/NETPBM_BLD-configure-*.log
+[  2%] Performing build step for 'NETPBM_BLD'
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/datetime.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/dylib.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/encode.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/endian.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/env.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/escape.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/fchmod.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/fgets.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/file.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/fort.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/fnmatch.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/getcwd.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/gethostname.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/getopt.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/glob.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/globals.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/hash.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/heap.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/hist.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/hook.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/htond.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/htonf.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/interrupt.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/kill.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/lex.c.o
+-- REGEX_BLD build command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/REGEX_BLD-prefix/src/REGEX_BLD-stamp/REGEX_BLD-build-*.log
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/linebuf.c.o
+[  2%] Performing install step for 'REGEX_BLD'
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/list.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/log.c.o
+-- REGEX_BLD install command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/REGEX_BLD-prefix/src/REGEX_BLD-stamp/REGEX_BLD-install-*.log
+[  2%] Completed 'REGEX_BLD'
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/magic.c.o
+[  2%] Built target REGEX_BLD
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/malloc.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/mappedfile.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/mime.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/mread.c.o
+[  2%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/num.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/observer.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/opt.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/parallel.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/parse.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/path.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/path_normalize.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/printb.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/process.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/progname.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/ptbl.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/redblack.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/realpath.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/semaphore.c.o
+[  3%] Building CXX object src/libbu/CMakeFiles/libbu-obj.dir/semaphore_register.cpp.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/sha1.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/simd.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/sort.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/sscanf.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/scan.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/snooze.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/str.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/tc.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/tcllist.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/tbl.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/temp.c.o
+[  3%] Building CXX object src/libbu/CMakeFiles/libbu-obj.dir/thread.cpp.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/units.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/units_dehumanize.c.o
+[  3%] Building CXX object src/other/ext/CMakeFiles/tcl_replace.dir/tcl_replace.cxx.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/units_humanize.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/uuid.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/vers.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/vfont.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/vlb.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/vls.c.o
+[  3%] Building CXX object src/libbu/CMakeFiles/libbu-obj.dir/vls_incr.cpp.o
+-- ZLIB_BLD build command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/ZLIB_BLD-prefix/src/ZLIB_BLD-stamp/ZLIB_BLD-build-*.log
+[  3%] Performing install step for 'ZLIB_BLD'
+-- ZLIB_BLD install command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/ZLIB_BLD-prefix/src/ZLIB_BLD-stamp/ZLIB_BLD-install-*.log
+[  3%] Completed 'ZLIB_BLD'
+[  3%] Built target ZLIB_BLD
+[  3%] Building CXX object src/other/ext/CMakeFiles/rpath_replace.dir/rpath_replace.cxx.o
+[  3%] Linking CXX executable ../../../bin/tcl_replace
+lto-wrapper: warning: using serial compilation of 3 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/vls_vprintf.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/whereami.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/whereis.c.o
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/which.c.o
+[  3%] Linking CXX executable ../../../bin/rpath_replace
+[  3%] Building C object src/libbu/CMakeFiles/libbu-obj.dir/xdr.c.o
+[  3%] Building CXX object src/libbu/CMakeFiles/libbu-obj.dir/parallel_cpp11thread.cpp.o
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  3%] Built target libbu-obj
+[  3%] Generating PIX_LOG.sentinel
+[  3%] Built target PIX_LOG_cp
+[  3%] Generating openNURBS_headers.sentinel
+[  3%] Built target openNURBS_headers_cp
+[  3%] Generating fix_6r.sentinel
+[  3%] Built target fix_6r_cp
+[  3%] Generating nonie_r_12.sentinel
+[  3%] Built target nonie_r_12_cp
+[  3%] Generating nurb_example_c.sentinel
+[  3%] Built target nurb_example_c_cp
+[  3%] Generating raydebug_tcl.sentinel
+[  3%] Built target raydebug_tcl_cp
+-- NETPBM_BLD build command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/NETPBM_BLD-prefix/src/NETPBM_BLD-stamp/NETPBM_BLD-build-*.log
+[  3%] Generating CL_FILES.sentinel
+[  3%] Performing install step for 'NETPBM_BLD'
+[  3%] Built target CL_FILES_cp
+[  3%] Generating tpkg_c.sentinel
+[  3%] Built target tpkg_c_cp
+[  3%] Generating termcap.sentinel
+[  3%] Built target termcap_cp
+[  3%] Generating brlman_tcl.sentinel
+[  3%] Built target brlman_tcl_cp
+[  3%] Generating g-xxx_c.sentinel
+-- NETPBM_BLD install command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/NETPBM_BLD-prefix/src/NETPBM_BLD-stamp/NETPBM_BLD-install-*.log
+[  3%] Built target g-xxx_c_cp
+[  3%] Completed 'NETPBM_BLD'
+[  3%] Generating g-xxx_facets_c.sentinel
+[  3%] Built target g-xxx_facets_c_cp
+[  3%] Built target NETPBM_BLD
+[  3%] Generating walk_example_c.sentinel
+[  3%] Generating gtransfer_c.sentinel
+[  3%] Built target walk_example_c_cp
+[  3%] Built target gtransfer_c_cp
+[  3%] Generating rtexample_c.sentinel
+[  3%] Generating plot3-dm_c.sentinel
+[  3%] Built target rtexample_c_cp
+[  3%] Built target plot3-dm_c_cp
+[  3%] Generating roots_example_c.sentinel
+[  3%] Generating tclscripts_TCLSCRIPTS.sentinel
+[  3%] Built target roots_example_c_cp
+[  3%] Built target tclscripts_TCLSCRIPTS_cp
+[  3%] Generating archer_TCLSCRIPTS.sentinel
+[  3%] Generating archer_images.sentinel
+[  3%] Built target archer_TCLSCRIPTS_cp
+[  3%] Built target archer_images_cp
+[  3%] Generating boteditor_TCLSCRIPTS.sentinel
+[  3%] Generating checker_TCLSCRIPTS.sentinel
+[  3%] Built target checker_TCLSCRIPTS_cp
+[  3%] Built target boteditor_TCLSCRIPTS_cp
+[  3%] Generating geometree_TCLSCRIPTS.sentinel
+[  3%] Generating igraph_TCLSCRIPTS.sentinel
+[  3%] Built target igraph_TCLSCRIPTS_cp
+[  3%] Built target geometree_TCLSCRIPTS_cp
+[  3%] Generating lib_TCLSCRIPTS.sentinel
+[  3%] Generating hv3_TCLSCRIPTS.sentinel
+[  3%] Built target lib_TCLSCRIPTS_cp
+[  3%] Built target hv3_TCLSCRIPTS_cp
+[  3%] Generating lod_TCLSCRIPTS.sentinel
+[  3%] Generating mged_TCLSCRIPTS.sentinel
+[  3%] Built target lod_TCLSCRIPTS_cp
+[  3%] Built target mged_TCLSCRIPTS_cp
+[  3%] Generating mged_tcl_DATA.sentinel
+[  3%] Generating plot3-dm_TCLSCRIPTS.sentinel
+[  3%] Built target mged_tcl_DATA_cp
+[  3%] Built target plot3-dm_TCLSCRIPTS_cp
+[  3%] Generating sdialogs_TCLSCRIPTS.sentinel
+[  3%] Generating sdialogs_scripts_TCLSCRIPTS.sentinel
+[  3%] Built target sdialogs_TCLSCRIPTS_cp
+[  3%] Built target sdialogs_scripts_TCLSCRIPTS_cp
+[  3%] Generating shotvis_TCLSCRIPTS.sentinel
+[  3%] Generating swidgets_TCLSCRIPTS.sentinel
+[  3%] Built target shotvis_TCLSCRIPTS_cp
+[  3%] Built target swidgets_TCLSCRIPTS_cp
+[  3%] Generating swidgets_image_DATA.sentinel
+[  3%] Generating swidgets_scripts_TCLSCRIPTS.sentinel
+[  3%] Built target swidgets_image_DATA_cp
+[  3%] Built target swidgets_scripts_TCLSCRIPTS_cp
+[  3%] Generating tcllib_TCLSCRIPTS.sentinel
+[  3%] Generating util_TCLSCRIPTS.sentinel
+[  3%] Built target tcllib_TCLSCRIPTS_cp
+[  3%] Built target util_TCLSCRIPTS_cp
+[  3%] Generating rtwizard_TCLSCRIPTS.sentinel
+[  3%] Generating PictureTypeA_DATA.sentinel
+[  3%] Built target rtwizard_TCLSCRIPTS_cp
+[  3%] Built target PictureTypeA_DATA_cp
+[  3%] Generating PictureTypeB_DATA.sentinel
+[  3%] Generating PictureTypeC_DATA.sentinel
+[  3%] Built target PictureTypeC_DATA_cp
+[  3%] Built target PictureTypeB_DATA_cp
+[  3%] Generating PictureTypeD_DATA.sentinel
+[  3%] Generating PictureTypeE_DATA.sentinel
+[  3%] Built target PictureTypeD_DATA_cp
+[  3%] Built target PictureTypeE_DATA_cp
+[  3%] Generating PictureTypeF_DATA.sentinel
+[  3%] Generating rtwizard_lib_TCLSCRIPTS.sentinel
+[  3%] Built target PictureTypeF_DATA_cp
+[  3%] Built target rtwizard_lib_TCLSCRIPTS_cp
+[  3%] Generating isst_tcl.sentinel
+[  3%] Generating tie_HDRS.sentinel
+[  3%] Built target isst_tcl_cp
+[  3%] Built target tie_HDRS_cp
+[  3%] Generating archer_launch_tcl.sentinel
+[  3%] Generating plugins_Core_README.sentinel
+[  3%] Built target plugins_Core_README_cp
+[  3%] Built target archer_launch_tcl_cp
+[  3%] Generating plugins_Commands_README.sentinel
+[  3%] Generating archer_utility_FILES.sentinel
+[  3%] Built target plugins_Commands_README_cp
+[  3%] Built target archer_utility_FILES_cp
+[  3%] Generating caf9c66ac6265db364c5e05be12c0bd7.sentinel
+[  3%] Generating f796b3e43eccf39b605762cebc3e428a.sentinel
+[  3%] Built target caf9c66ac6265db364c5e05be12c0bd7_cp
+[  3%] Built target f796b3e43eccf39b605762cebc3e428a_cp
+[  3%] Generating a0cc23f53bcd956a07f21a4c957b40fa.sentinel
+[  3%] Generating archer_wizard_FILES.sentinel
+[  3%] Built target a0cc23f53bcd956a07f21a4c957b40fa_cp
+[  3%] Built target archer_wizard_FILES_cp
+[  3%] Generating c406129a4ee6e8c28e33dc9f37573d22.sentinel
+[  3%] Generating 778cba5d0c74223f7f5195d10da80e0c.sentinel
+[  3%] Built target c406129a4ee6e8c28e33dc9f37573d22_cp
+[  3%] Built target 778cba5d0c74223f7f5195d10da80e0c_cp
+[  3%] Generating c9128fbf1c657273ea89dedea3e3d6eb.sentinel
+[  3%] Generating 7dd9466c76c9a7e2eaf6b83476fbe31f.sentinel
+[  3%] Built target c9128fbf1c657273ea89dedea3e3d6eb_cp
+[  3%] Built target 7dd9466c76c9a7e2eaf6b83476fbe31f_cp
+[  3%] Generating archer_txt.sentinel
+[  3%] Generating f570a5422a0bbb820f49cd0b67f1d893.sentinel
+[  3%] Built target archer_txt_cp
+[  3%] Built target f570a5422a0bbb820f49cd0b67f1d893_cp
+[  3%] Generating analyze_headers.sentinel
+[  3%] Generating bu_headers.sentinel
+[  3%] Built target analyze_headers_cp
+[  3%] Built target bu_headers_cp
+[  3%] Generating bn_headers.sentinel
+[  3%] Generating bg_headers.sentinel
+[  3%] Built target bn_headers_cp
+[  3%] Built target bg_headers_cp
+[  3%] Generating brep_headers.sentinel
+[  3%] Generating bv_headers.sentinel
+[  3%] Built target brep_headers_cp
+[  3%] Built target bv_headers_cp
+[  3%] Generating dm_headers.sentinel
+[  3%] Generating gcv_headers.sentinel
+[  3%] Built target dm_headers_cp
+[  3%] Built target gcv_headers_cp
+[  3%] Generating ged_headers.sentinel
+[  3%] Generating ged_view_headers.sentinel
+[  3%] Built target ged_headers_cp
+[  3%] Built target ged_view_headers_cp
+[  3%] Generating icv_headers.sentinel
+[  3%] Generating nmg_headers.sentinel
+[  3%] Built target icv_headers_cp
+[  3%] Built target nmg_headers_cp
+[  3%] Generating optical_headers.sentinel
+[  3%] Generating qtcad_headers.sentinel
+[  3%] Built target optical_headers_cp
+[  3%] Built target qtcad_headers_cp
+[  3%] Generating rt_headers.sentinel
+[  3%] Generating primitives_headers.sentinel
+[  3%] Built target rt_headers_cp
+[  3%] Built target primitives_headers_cp
+[  4%] Generating tclcad_headers.sentinel
+[  4%] Generating fortran_example_f.sentinel
+[  4%] Built target tclcad_headers_cp
+[  4%] Built target fortran_example_f_cp
+[  4%] Generating density_DATAFILES.sentinel
+[  4%] Generating profont_ProFont_ttf.sentinel
+[  4%] Built target density_DATAFILES_cp
+[  4%] Built target profont_ProFont_ttf_cp
+[  4%] Generating nsis_brlcad_ico.sentinel
+[  5%] Generating nsis_archer_ico.sentinel
+[  5%] Built target nsis_brlcad_ico_cp
+[  5%] Built target nsis_archer_ico_cp
+[  5%] Generating nirt_format_files.sentinel
+[  5%] Generating documentation_DATA.sentinel
+[  5%] Built target nirt_format_files_cp
+[  5%] Built target documentation_DATA_cp
+[  5%] Generating articles_EN_IMAGES.sentinel
+[  5%] Generating documentation_mged_old_DATA.sentinel
+[  5%] Built target articles_EN_IMAGES_cp
+[  5%] Built target documentation_mged_old_DATA_cp
+[  5%] Generating articles_IT_IMAGES.sentinel
+[  5%] Generating books_EN_IMAGES.sentinel
+[  5%] Built target articles_IT_IMAGES_cp
+[  5%] Built target books_EN_IMAGES_cp
+[  5%] Generating devguides_EN_IMAGES.sentinel
+[  5%] Generating devguides_EN.sentinel
+[  5%] Built target devguides_EN_IMAGES_cp
+[  5%] Built target devguides_EN_cp
+[  5%] Generating lessons_EN_IMAGES.sentinel
+[  5%] Generating lessons_ES_IMAGES.sentinel
+[  5%] Built target lessons_EN_IMAGES_cp
+[  5%] Built target lessons_ES_IMAGES_cp
+[  5%] Generating presentations_EN_IMAGES.sentinel
+[  5%] Generating toplevel_HTML.sentinel
+[  5%] Built target presentations_EN_IMAGES_cp
+[  5%] Built target toplevel_HTML_cp
+[  5%] Generating cadwidgets_HTML.sentinel
+[  5%] Generating libbu_HTML.sentinel
+[  5%] Built target cadwidgets_HTML_cp
+[  5%] Built target libbu_HTML_cp
+[  5%] Generating libdm_HTML.sentinel
+[  5%] Generating librt_HTML.sentinel
+[  5%] Built target libdm_HTML_cp
+[  5%] Built target librt_HTML_cp
+[  5%] Generating manuals_HTML.sentinel
+[  5%] Generating manuals_mged_HTML.sentinel
+[  5%] Built target manuals_HTML_cp
+[  5%] Built target manuals_mged_HTML_cp
+[  5%] Generating manuals_shaders_camo_html.sentinel
+[  5%] Generating relnotes_HTML.sentinel
+[  5%] Built target manuals_shaders_camo_html_cp
+[  5%] Built target relnotes_HTML_cp
+[  5%] Generating relnotes_5_HTML.sentinel
+[  5%] Generating relnotes_5_summary_HTML.sentinel
+[  5%] Built target relnotes_5_HTML_cp
+[  5%] Built target relnotes_5_summary_HTML_cp
+[  5%] Generating ReleaseNotes_Rel6_0_index_html.sentinel
+[  5%] Generating doc_legal.sentinel
+[  5%] Built target ReleaseNotes_Rel6_0_index_html_cp
+[  5%] Built target doc_legal_cp
+[  5%] Generating embedded_licenses.sentinel
+[  5%] Generating other_licenses.sentinel
+[  5%] Built target embedded_licenses_cp
+[  5%] Built target other_licenses_cp
+[  5%] Generating terra_bin.sentinel
+[  5%] Generating BENCHMARK_PIX.sentinel
+[  5%] Built target terra_bin_cp
+[  5%] Built target BENCHMARK_PIX_cp
+[  5%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri.dir/poly2tri/common/shapes.cc.o
+[  5%] Building C object src/other/lmdb/CMakeFiles/lmdb.dir/mdb.c.o
+[  5%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri.dir/poly2tri/sweep/advancing_front.cc.o
+[  5%] Building C object src/other/lmdb/CMakeFiles/lmdb.dir/midl.c.o
+[  5%] Linking C shared library ../../../lib/liblmdb.so
+[  5%] Built target lmdb
+[  5%] Building CXX object misc/tools/debug2c/CMakeFiles/debug2c.dir/debug2c.cpp.o
+[  5%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri.dir/poly2tri/sweep/cdt.cc.o
+[  5%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri.dir/poly2tri/sweep/sweep_context.cc.o
+[  5%] Built target rpath_replace
+[  5%] Building CXX object misc/tools/ext/astyle/CMakeFiles/astyle.dir/astyle_main.cpp.o
+[  5%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri.dir/poly2tri/sweep/sweep.cc.o
+[  5%] Built target tcl_replace
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/DOCBparser.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/HTMLparser.c.o
+[  5%] Linking CXX shared library ../../../lib/libpoly2tri.so
+[  5%] Built target poly2tri
+[  5%] Building CXX object misc/tools/ext/patchelf/CMakeFiles/patchelf.dir/patchelf.cc.o
+[  5%] Building CXX object misc/tools/ext/astyle/CMakeFiles/astyle.dir/ASBeautifier.cpp.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/HTMLtree.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/SAX.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/SAX2.c.o
+[  5%] Linking CXX executable ../../../bin/debug2c
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/buf.c.o
+lto-wrapper: warning: using serial compilation of 3 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/c14n.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/catalog.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/chvalid.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/debugXML.c.o
+[  5%] Building CXX object misc/tools/ext/astyle/CMakeFiles/astyle.dir/ASFormatter.cpp.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/dict.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/encoding.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/entities.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/error.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/globals.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/hash.c.o
+[  5%] Linking CXX executable ../../../../bin/patchelf
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/list.c.o
+[  5%] Built target patchelf
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/parser.c.o
+[  5%] Building C object misc/tools/ext/perplex/CMakeFiles/lemon.dir/lemon.c.o
+[  5%] Linking C executable ../../../../bin/lemon
+[  5%] Built target lemon
+[  5%] Building CXX object misc/tools/env2c/CMakeFiles/env2c.dir/env2c.cpp.o
+[  5%] Building CXX object misc/tools/ext/astyle/CMakeFiles/astyle.dir/ASEnhancer.cpp.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/parserInternals.c.o
+[  5%] Building CXX object misc/tools/ext/astyle/CMakeFiles/astyle.dir/ASLocalizer.cpp.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/pattern.c.o
+[  5%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/relaxng.c.o
+[  6%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/schematron.c.o
+[  6%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/threads.c.o
+[  6%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/tree.c.o
+[  6%] Building CXX object misc/tools/ext/astyle/CMakeFiles/astyle.dir/ASResource.cpp.o
+[  6%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/trionan.c.o
+[  6%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/uri.c.o
+[  6%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/valid.c.o
+[  7%] Linking CXX executable ../../../../bin/astyle
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xinclude.c.o
+[  7%] Built target astyle
+[  7%] Building CXX object misc/tools/inactvhdrs/CMakeFiles/inactvhdrs.dir/inactvhdrs.cpp.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xlink.c.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlIO.c.o
+[  7%] Linking CXX executable ../../../bin/env2c
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlmemory.c.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlmodule.c.o
+lto-wrapper: warning: using serial compilation of 3 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlreader.c.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlregexp.c.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlsave.c.o
+[  7%] Built target debug2c
+[  7%] Building CXX object src/other/ext/CMakeFiles/buildpath_replace.dir/buildpath_replace.cxx.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlschemas.c.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlschemastypes.c.o
+[  7%] Linking CXX executable ../../../bin/inactvhdrs
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlstring.c.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlwriter.c.o
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xmlunicode.c.o
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xpath.c.o
+[  7%] Linking CXX executable ../../../bin/buildpath_replace
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  7%] Building C object misc/tools/ext/xmltools/libxml/CMakeFiles/xml.dir/src/xpointer.c.o
+[  7%] Linking C shared library ../../../../../lib/libxml.so
+[  7%] Built target xml
+[  7%] Generating ../../../lib/libz_brl.a
+[  7%] Built target zlib-static_stage
+[  7%] Generating ../../../lib/libregex_brl.a
+[  7%] Built target regex-static_stage
+[  7%] Generating ../../../lib/libnetpbm.a
+[  7%] Built target netpbm-static_stage
+[  7%] Creating directories for 'SQLITE3_BLD'
+[  7%] No download step for 'SQLITE3_BLD'
+[  7%] No update step for 'SQLITE3_BLD'
+[  7%] No patch step for 'SQLITE3_BLD'
+[  7%] Performing configure step for 'SQLITE3_BLD'
+-- SQLITE3_BLD configure command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/SQLITE3_BLD-prefix/src/SQLITE3_BLD-stamp/SQLITE3_BLD-configure-*.log
+[  7%] Performing build step for 'SQLITE3_BLD'
+[  7%] Built target env2c
+[  7%] Creating directories for 'OPENMESH_BLD'
+[  7%] No download step for 'OPENMESH_BLD'
+[  7%] No update step for 'OPENMESH_BLD'
+[  7%] No patch step for 'OPENMESH_BLD'
+[  7%] Performing configure step for 'OPENMESH_BLD'
+-- OPENMESH_BLD configure command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/OPENMESH_BLD-prefix/src/OPENMESH_BLD-stamp/OPENMESH_BLD-configure-*.log
+[  7%] Performing build step for 'OPENMESH_BLD'
+[  7%] Built target inactvhdrs
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/Runput.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/cmd_name.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/dither.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/float_to_exp.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/hilbert.c.o
+[  7%] Built target buildpath_replace
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/Runput.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/inv_cmap.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/cmd_name.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_addhist.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/dither.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_cp.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/float_to_exp.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_error.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/hilbert.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_getcom.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/inv_cmap.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_getraw.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_addhist.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_getrow.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_cp.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_getskip.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_error.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_global.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_getcom.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_hdr.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_getraw.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_open_f.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_getrow.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_putcom.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_getskip.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_putraw.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_global.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_putrow.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_hdr.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_raw_alc.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_open_f.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_rawrow.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_putcom.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/rle_row_alc.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_putraw.c.o
+[  7%] Building C object src/other/libutahrle/CMakeFiles/utahrle.dir/vaxshort.c.o
+[  8%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_putrow.c.o
+[  8%] Linking C shared library ../../../lib/libutahrle.so
+[  8%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_raw_alc.c.o
+[  8%] Built target utahrle
+[  8%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_rawrow.c.o
+[  8%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/rle_row_alc.c.o
+[  8%] Building C object src/other/libutahrle/CMakeFiles/utahrle-static.dir/vaxshort.c.o
+[  8%] Linking C static library ../../../lib/libutahrle.a
+[  8%] Built target utahrle-static
+[  8%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri-static.dir/poly2tri/common/shapes.cc.o
+[  8%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri-static.dir/poly2tri/sweep/advancing_front.cc.o
+[  8%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri-static.dir/poly2tri/sweep/cdt.cc.o
+[  8%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri-static.dir/poly2tri/sweep/sweep_context.cc.o
+-- SQLITE3_BLD build command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/SQLITE3_BLD-prefix/src/SQLITE3_BLD-stamp/SQLITE3_BLD-build-*.log
+[  8%] Performing install step for 'SQLITE3_BLD'
+-- SQLITE3_BLD install command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/SQLITE3_BLD-prefix/src/SQLITE3_BLD-stamp/SQLITE3_BLD-install-*.log
+[  8%] Completed 'SQLITE3_BLD'
+[  8%] Built target SQLITE3_BLD
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/drivers/common/driverfuncs.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/drivers/osmesa/osmesa.c.o
+[  8%] Building CXX object src/other/poly2tri/CMakeFiles/poly2tri-static.dir/poly2tri/sweep/sweep.cc.o
+[  8%] Linking CXX static library ../../../lib/libpoly2tri.a
+[  8%] Built target poly2tri-static
+[  8%] Building CXX object src/other/tktable/CMakeFiles/tktable_hdr.dir/tktable_hdr.cxx.o
+[  8%] Linking CXX executable ../../../bin/tktable_hdr
+[  8%] Built target tktable_hdr
+[  8%] Linking CXX static library ../../lib/libbu.a
+[  8%] Built target libbu-static
+[  8%] Building C object src/libfft/CMakeFiles/fftc.dir/fftc.c.o
+[  8%] Building C object src/libfft/CMakeFiles/fftc.dir/splitditc.c.o
+[  8%] Linking C executable ../../bin/fftc
+[  8%] Built target fftc
+[  8%] Building C object src/libfft/CMakeFiles/ifftc.dir/ifftc.c.o
+[  8%] Building C object src/libfft/CMakeFiles/ifftc.dir/ditsplitc.c.o
+[  8%] Linking C executable ../../bin/ifftc
+[  8%] Built target ifftc
+[  8%] Building C object src/libfft/CMakeFiles/libfft-obj.dir/fftfast.c.o
+[  8%] Building C object src/libfft/CMakeFiles/libfft-obj.dir/splitdit.c.o
+[  8%] Building C object src/libfft/CMakeFiles/libfft-obj.dir/ditsplit.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/glapi/glapi.c.o
+[  8%] Built target libfft-obj
+[  8%] Building C object src/util/CMakeFiles/ttcp.dir/ttcp.c.o
+[  8%] Linking C executable ../../bin/ttcp
+[  8%] Built target ttcp
+[  8%] Generating ../../../qged_plugins.sentinel
+[  8%] Built target qged_plugins_sentinel
+[  8%] Building C object doc/docbook/CMakeFiles/db_dir_info.dir/db_dir_info.c.o
+[  8%] Linking C executable ../../bin/db_dir_info
+[  8%] Built target db_dir_info
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/glapi/glthread.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/accum.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/api_arrayelt.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/api_loopback.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/api_noop.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/api_validate.c.o
+[  8%] Generating standard/xsl/xsl.sentinel
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/arrayobj.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/attrib.c.o
+[  8%] Built target xsl-expand
+[  8%] Generating docbook-schema/schema.sentinel
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/blend.c.o
+[  8%] Built target schema-expand
+[  8%] Generating fonts/dejavu-lgc/dejavu-lgc.sentinel
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/bufferobj.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/buffers.c.o
+[  8%] Built target fonts-dejavu-expand
+[  8%] Generating fonts/stix/stix.sentinel
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/clip.c.o
+[  8%] Built target fonts-stix-expand
+[  8%] Generating offo/offo2_0.sentinel
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/colortab.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/context.c.o
+[  8%] Built target offo-2-expand
+[  8%] Generating standard/svg/svg.sentinel
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/convolve.c.o
+[  8%] Built target svg-dtd-expand
+[  8%] Generating brlcad_css-.-done
+[  8%] Built target brlcad_css
+[  8%] Building CXX object regress/licenses/CMakeFiles/echeck.dir/embedded_check.cpp.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/debug.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/depth.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/depthstencil.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/dispatch.c.o
+[  8%] Linking CXX executable echeck
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/dlist.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/drawpix.c.o
+[  8%] Building CXX object regress/licenses/CMakeFiles/ocheck.dir/other_check.cpp.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/enable.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/enums.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/eval.c.o
+[  8%] Built target echeck
+[  8%] Linking CXX shared library ../../lib/libbu.so
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/execmem.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/extensions.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/fbobject.c.o
+lto-wrapper: warning: using serial compilation of 9 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/feedback.c.o
+[  8%] Linking CXX executable ocheck
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/fog.c.o
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/framebuffer.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/get.c.o
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c: In function ‘bu_bitv_and’:
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:172:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  172 |         *out++ &= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [16, 2305843009213693944] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [16, 2305843009213693944] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:172:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  172 |         *out++ &= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [17, 2305843009213693945] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [1, 2] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [17, 2305843009213693945] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:172:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  172 |         *out++ &= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [18, 2305843009213693946] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset 2 into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [18, 2305843009213693946] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:172:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  172 |         *out++ &= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [19, 2305843009213693947] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [3, 11] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [19, 2305843009213693947] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:172:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  172 |         *out++ &= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [20, 2305843009213693948] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [4, 12] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [20, 2305843009213693948] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:172:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  172 |         *out++ &= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [21, 2305843009213693949] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [5, 13] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [21, 2305843009213693949] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:172:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  172 |         *out++ &= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [22, 2305843009213693950] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [6, 14] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [22, 2305843009213693950] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c: In function ‘bu_bitv_or’:
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:149:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  149 |         *out++ |= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [16, 2305843009213693944] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [16, 2305843009213693944] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:149:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  149 |         *out++ |= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [17, 2305843009213693945] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [1, 2] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [17, 2305843009213693945] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:149:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  149 |         *out++ |= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [18, 2305843009213693946] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset 2 into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [18, 2305843009213693946] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:149:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  149 |         *out++ |= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [19, 2305843009213693947] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [3, 11] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [19, 2305843009213693947] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:149:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  149 |         *out++ |= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [20, 2305843009213693948] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [4, 12] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [20, 2305843009213693948] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:149:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  149 |         *out++ |= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [21, 2305843009213693949] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [5, 13] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [21, 2305843009213693949] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/libbu/bitv.c:149:16: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+  149 |         *out++ |= *in++;
+      |                ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [22, 2305843009213693950] into destination object ‘bits’ of size 2
+  111 |     bitv_t bits[2];     /**< variable size array */
+      |            ^
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [6, 14] into destination object ‘bits’ of size 2
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/include/bu/bitv.h:111:12: note: at offset [22, 2305843009213693950] into destination object ‘bits’ of size 2
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/getstring.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/hash.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/hint.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/histogram.c.o
+[  8%] Built target ocheck
+[  8%] Generating ../../../include/netpbm/bitio.h
+[  8%] Generating ../../../include/netpbm/colorname.h
+[  8%] Generating ../../../include/netpbm/pam.h
+[  8%] Generating ../../../include/netpbm/pammap.h
+[  8%] Generating ../../../include/netpbm/pbm.h
+[  8%] Generating ../../../include/netpbm/pbmfont.h
+[  8%] Generating ../../../include/netpbm/pgm.h
+[  8%] Generating ../../../include/netpbm/pm.h
+[  8%] Generating ../../../include/netpbm/pm_config.h
+[  8%] Generating ../../../include/netpbm/pm_gamma.h
+[  8%] Generating ../../../include/netpbm/pnm.h
+[  8%] Generating ../../../include/netpbm/ppm.h
+[  8%] Generating ../../../include/netpbm/ppmcmap.h
+[  8%] Generating ../../../include/netpbm/ppmfloyd.h
+[  8%] Built target netpbm_d06ea0d4f128fb1f2d459cc1ba6df796
+[  8%] Generating ../../../include/zconf.h
+[  8%] Generating ../../../include/zlib.h
+[  8%] Built target zlib_3b3915f9cfe1c2fd0ddec13f5057b171
+[  8%] Generating ../../../include/regex.h
+[  8%] Built target regex_e69f1263c0c319974eafd1e7a4ac6579
+[  8%] Built target managed_files
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/attributes.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/attrvt.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/documents.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/extensions.c.o
+[  8%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/image.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/extra.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/functions.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/imports.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/keys.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/namespaces.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/numbers.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/pattern.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/preproc.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/security.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/templates.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/transform.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/variables.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/xslt.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/xsltlocale.c.o
+[  8%] Building C object misc/tools/ext/xmltools/libxslt/CMakeFiles/xslt.dir/src/xsltutils.c.o
+[  8%] Linking C shared library ../../../../../lib/libxslt.so
+[  8%] Built target xslt
+[  8%] [LEMON][re2c] Building bootstrap parser with lemon
+[  8%] Generating bootstrap_parser.cc, bootstrap_parser_tokens.h
+-- OPENMESH_BLD build command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/OPENMESH_BLD-prefix/src/OPENMESH_BLD-stamp/OPENMESH_BLD-build-*.log
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/code.cc.o
+[  8%] Performing install step for 'OPENMESH_BLD'
+-- OPENMESH_BLD install command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/OPENMESH_BLD-prefix/src/OPENMESH_BLD-stamp/OPENMESH_BLD-install-*.log
+[  8%] Completed 'OPENMESH_BLD'
+[  8%] Built target OPENMESH_BLD
+[  8%] Generating ../../../lib/libsqlite3.so
+[  8%] Generating ../../../lib/libsqlite3.so.3
+[  8%] Generating ../../../lib/libsqlite3.so.3.41.2
+[  8%] Built target libsqlite3_stage
+[  8%] Generating ../../../bin/sqlite3
+[  8%] Built target sqlite3_exe_stage
+[  8%] Generating ../../../include/sqlite3.h
+[  8%] Generating ../../../include/sqlite3ext.h
+[  8%] Built target sqlite3_256f665f92a2b164a5d471b0c7636053
+[  8%] Creating directories for 'PROJ_BLD'
+[  8%] No download step for 'PROJ_BLD'
+[  8%] No update step for 'PROJ_BLD'
+[  8%] No patch step for 'PROJ_BLD'
+[  8%] Performing configure step for 'PROJ_BLD'
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/dfa.cc.o
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/main.cc.o
+-- PROJ_BLD configure command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/PROJ_BLD-prefix/src/PROJ_BLD-stamp/PROJ_BLD-configure-*.log
+[  8%] Performing build step for 'PROJ_BLD'
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/actions.cc.o
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/substr.cc.o
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/translate.cc.o
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/mbo_getopt.cc.o
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/re2c/bootstrap/scanner.cc.o
+[  8%] Building CXX object misc/tools/ext/perplex/CMakeFiles/re2c_bootstrap.dir/bootstrap_parser.cc.o
+[  8%] Linking CXX executable ../../../../bin/re2c_bootstrap
+[  8%] Built target re2c_bootstrap
+[  8%] Generating ../../../lib/libOpenMeshCore.so
+[  8%] Generating ../../../lib/libOpenMeshCore.so.9.0
+[  8%] Built target Core_stage
+[  8%] Generating ../../../lib/libOpenMeshTools.so
+[  8%] Generating ../../../lib/libOpenMeshTools.so.9.0
+[  8%] Built target Tools_stage
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/Config.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/EigenVectorT.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/MathDefs.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/NormalConeT.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/NormalConeT_impl.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/Plane3d.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/QuadricT.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/Vector11T.hh
+[  8%] Generating ../../../include/OpenMesh/Core/Geometry/VectorT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Geometry/VectorT_inc.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/BinaryHelper.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/IOInstances.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/IOManager.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/MeshIO.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/OFFFormat.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/OMFormat.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/OMFormatT_impl.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/Options.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/SR_binary.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/SR_binary_spec.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/SR_binary_vector_of_bool.inl
+[  9%] Generating ../../../include/OpenMesh/Core/IO/SR_rbo.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/SR_store.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/SR_types.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/StoreRestore.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/exporter/BaseExporter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/exporter/ExporterT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/importer/BaseImporter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/importer/ImporterT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/reader/BaseReader.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/reader/OBJReader.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/reader/OFFReader.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/reader/OMReader.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/reader/PLYReader.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/reader/STLReader.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/writer/BaseWriter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/writer/OBJWriter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/writer/OFFWriter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/writer/OMWriter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/writer/PLYWriter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/writer/STLWriter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/IO/writer/VTKWriter.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/ArrayItems.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/ArrayKernel.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/ArrayKernelT_impl.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/AttribKernelT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/Attributes.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/BaseKernel.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/BaseMesh.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/Casts.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/CirculatorsT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/DefaultPolyMesh.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/DefaultTriMesh.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/FinalMeshItemsT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/Handles.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/IteratorsT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/PolyConnectivity.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/PolyConnectivity_inline_impl.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/PolyMeshT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/PolyMeshT_impl.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/SmartHandles.hh
+[  9%] Generating ../../../include/OpenMesh/Core/Mesh/SmartRange.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/Status.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/Tags.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/Traits.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/TriConnectivity.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/TriMeshT.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/TriMeshT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/gen/circulators_header.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/gen/circulators_template.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/gen/footer.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/gen/iterators_header.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Mesh/gen/iterators_template.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/System/OpenMeshDLLMacros.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/System/compiler.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/System/config.h
+[ 10%] Generating ../../../include/OpenMesh/Core/System/config.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/System/mostream.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/System/omstream.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/AutoPropertyHandleT.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/BaseProperty.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/Endian.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/GenProg.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/HandleToPropHandle.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/Noncopyable.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/Predicates.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/Property.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/PropertyContainer.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/PropertyCreator.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/PropertyManager.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/RandomNumberGenerator.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/SingletonT.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/SingletonT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/color_cast.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/typename.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/vector_cast.hh
+[ 10%] Generating ../../../include/OpenMesh/Core/Utils/vector_traits.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/BaseDecimaterT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/BaseDecimaterT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/CollapseInfoT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/DecimaterT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/DecimaterT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/McDecimaterT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/McDecimaterT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/MixedDecimaterT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/MixedDecimaterT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModAspectRatioT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModAspectRatioT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModBaseT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModEdgeLengthT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModEdgeLengthT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModHausdorffT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModHausdorffT_impl.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModIndependentSetsT.hh
+[ 10%] Generating ../../../include/OpenMesh/Tools/Decimater/ModNormalDeviationT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Decimater/ModNormalFlippingT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Decimater/ModProgMeshT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Decimater/ModProgMeshT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Decimater/ModQuadricT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Decimater/ModQuadricT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Decimater/ModRoundnessT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Decimater/Observer.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Dualizer/meshDualT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/ArrayKernelT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/AttribKernelT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/PropertyKernel.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/PropertyT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/Traits.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/TriMesh_OSGArrayKernelT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/VectorAdapter.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/bindT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Kernel_OSG/color_cast.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Smoother/JacobiLaplaceSmootherT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Smoother/JacobiLaplaceSmootherT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Smoother/LaplaceSmootherT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Smoother/LaplaceSmootherT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Smoother/SmootherT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Smoother/SmootherT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Smoother/smooth_mesh.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Adaptive/Composite/CompositeT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Adaptive/Composite/CompositeT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Adaptive/Composite/CompositeTraits.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Adaptive/Composite/RuleInterfaceT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Adaptive/Composite/RulesT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Adaptive/Composite/RulesT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Adaptive/Composite/Traits.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/CatmullClarkT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/CatmullClarkT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/Composite/CompositeT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/Composite/CompositeT_impl.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/Composite/CompositeTraits.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/CompositeLoopT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/CompositeSqrt3T.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/LongestEdgeT.hh
+[ 11%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/LoopT.hh
+[ 12%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/imports.c.o
+[ 12%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/MidpointT.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/ModifiedButterFlyT.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/Sqrt3InterpolatingSubdividerLabsikGreinerT.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/Sqrt3T.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Subdivider/Uniform/SubdividerT.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/Config.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/GLConstAsString.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/Gnuplot.hh
+[ 12%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/light.c.o
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/HeapT.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/MeshCheckerT.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/MeshCheckerT_impl.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/NumLimitsT.hh
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/StripifierT.hh
+[ 12%] Built target libbu
+[ 12%] Generating ../../../include/OpenMesh/Tools/Utils/StripifierT_impl.hh
+[ 12%] Generating tkTable.tcl.h
+[ 13%] Generating ../../../include/OpenMesh/Tools/Utils/TestingFramework.hh
+[ 13%] Built target tktable_header_gen
+[ 13%] Generating ../../../include/OpenMesh/Tools/Utils/Timer.hh
+[ 13%] Generating ../../../include/OpenMesh/Tools/Utils/conio.hh
+[ 13%] Generating ../../../include/OpenMesh/Tools/Utils/getopt.h
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/MeshTraits.hh
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/StreamingDef.hh
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/lines.c.o
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/VFront.hh
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/VHierarchy.hh
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/VHierarchyNode.hh
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/VHierarchyNodeIndex.hh
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/VHierarchyWindow.hh
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/matrix.c.o
+[ 13%] Generating ../../../include/OpenMesh/Tools/VDPM/ViewingParameters.hh
+[ 13%] Built target openmesh_4419d4001701103aa69010d5c70dca67
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/mipmap.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/mm.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/pixel.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/points.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/polygon.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/queryobj.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/rastpos.c.o
+[ 13%] Building CXX object src/libbu/tests/CMakeFiles/bu_subprocess.dir/subprocess.cpp.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/rbadaptors.c.o
+[ 13%] Linking CXX executable bu_subprocess
+[ 13%] Built target bu_subprocess
+[ 13%] Building C object src/libbu/tests/CMakeFiles/bu_progname.dir/progname.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/renderbuffer.c.o
+[ 13%] Linking C executable bu_progname
+[ 13%] Built target bu_progname
+[ 13%] Building CXX object src/libbu/tests/CMakeFiles/bu_vls_incr_uniq.dir/vls_incr_uniq.cpp.o
+[ 13%] Linking CXX executable bu_vls_incr_uniq
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/shaders.c.o
+[ 13%] Built target bu_vls_incr_uniq
+[ 13%] Building CXX object src/libbu/tests/CMakeFiles/bu_hash.dir/hash.cpp.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/state.c.o
+[ 13%] Linking CXX executable bu_hash
+[ 13%] Built target bu_hash
+[ 13%] Building C object src/libbu/tests/CMakeFiles/bu_test_uuid.dir/uuid.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/stencil.c.o
+[ 13%] Linking C executable bu_test_uuid
+[ 13%] Built target bu_test_uuid
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texcompress.c.o
+[ 13%] Building C object src/libbu/tests/CMakeFiles/bu_sscanf.dir/sscanf.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texcompress_fxt1.c.o
+[ 13%] Linking C executable bu_sscanf
+[ 13%] Built target bu_sscanf
+[ 13%] Building C object src/libbu/tests/CMakeFiles/bu_gethostname.dir/gethostname.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texcompress_s3tc.c.o
+[ 13%] Linking C executable bu_gethostname
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texenvprogram.c.o
+[ 13%] Built target bu_gethostname
+[ 13%] Building CXX object src/libbu/tests/dylib/CMakeFiles/plugin_1.dir/plugin_1.cpp.o
+[ 13%] Linking CXX shared library ../../../../libexec/dylib/libplugin_1.so
+[ 13%] Built target plugin_1
+[ 13%] Building CXX object src/libbu/tests/dylib/CMakeFiles/plugin_2.dir/plugin_2.cpp.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texformat.c.o
+[ 13%] Linking CXX shared library ../../../../libexec/dylib/libplugin_2.so
+[ 13%] Built target plugin_2
+[ 13%] Building C object src/libbu/tests/dylib/CMakeFiles/libdylib.dir/dylib.c.o
+[ 13%] Linking C shared library ../../../../lib/libdylib.so
+[ 13%] Built target libdylib
+[ 13%] Building C object src/libpkg/CMakeFiles/libpkg-obj.dir/pkg.c.o
+[ 13%] Building C object src/libpkg/CMakeFiles/libpkg-obj.dir/vers.c.o
+[ 13%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/teximage.c.o
+[ 13%] Built target libpkg-obj
+[ 13%] Generating shared/rfft64.c
+[ 13%] Generating shared/irfft128.c
+[ 13%] Generating shared/irfft16.c
+[ 13%] Generating shared/irfft256.c
+[ 13%] Generating shared/irfft32.c
+[ 14%] Generating shared/irfft64.c
+[ 14%] Generating shared/rfft128.c
+[ 14%] Generating shared/rfft16.c
+[ 14%] Generating shared/rfft256.c
+[ 14%] Generating shared/rfft32.c
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/rfft16.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/irfft16.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/rfft32.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/irfft32.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/rfft64.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/irfft64.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/rfft128.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/irfft128.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texobj.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/rfft256.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texrender.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft.dir/shared/irfft256.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texstate.c.o
+[ 14%] Linking C shared library ../../lib/libfft.so
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/texstore.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/varray.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/main/vtxfmt.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_debug_clip.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_debug_norm.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_debug_xform.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_eval.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_matrix.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_translate.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_vector.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/math/m_xform.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/arbprogparse.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/arbprogram.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/atifragshader.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/grammar/grammar_mesa.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/nvfragparse.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/nvprogram.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/nvvertparse.c.o
+[ 14%] Built target libfft
+[ 14%] Generating static/rfft64.c
+[ 14%] Generating static/irfft128.c
+[ 14%] Generating static/irfft16.c
+[ 14%] Generating static/irfft256.c
+[ 14%] Generating static/irfft32.c
+[ 14%] Generating static/irfft64.c
+[ 14%] Generating static/rfft128.c
+[ 14%] Generating static/rfft16.c
+[ 14%] Generating static/rfft256.c
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/prog_debug.c.o
+[ 14%] Generating static/rfft32.c
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/rfft16.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/irfft16.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/rfft32.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/prog_execute.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/irfft32.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/rfft64.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/irfft64.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/rfft128.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/irfft128.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/rfft256.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/prog_instruction.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/prog_parameter.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/prog_print.c.o
+[ 14%] Building C object src/libfft/CMakeFiles/libfft-static.dir/static/irfft256.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/prog_statevars.c.o
+[ 14%] Linking C static library ../../lib/libfft.a
+[ 14%] Built target libfft-static
+[ 14%] Building C object src/libfft/CMakeFiles/fftest.dir/fftest.c.o
+[ 14%] Linking C executable ../../bin/fftest
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/program.c.o
+[ 14%] Built target fftest
+[ 14%] Building C object src/libtermio/CMakeFiles/libtermio-obj.dir/termio.c.o
+[ 14%] Building C object src/libtermio/CMakeFiles/libtermio-obj.dir/termcap.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/programopt.c.o
+[ 14%] Building C object src/libtermio/CMakeFiles/libtermio-obj.dir/tgoto.c.o
+[ 14%] Building C object src/libtermio/CMakeFiles/libtermio-obj.dir/tputs.c.o
+[ 14%] Built target libtermio-obj
+[ 14%] Building C object src/conv/CMakeFiles/conv-vg2g.dir/conv-vg2g.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/shader_api.c.o
+[ 14%] Linking C executable ../../bin/conv-vg2g
+[ 14%] Built target conv-vg2g
+[ 14%] Building C object src/conv/asc/CMakeFiles/asc2dsp.dir/asc2dsp.c.o
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_builtin.c.o
+[ 14%] Linking C executable ../../../bin/asc2dsp
+[ 14%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_codegen.c.o
+[ 14%] Built target asc2dsp
+[ 14%] Building C object src/conv/asc/CMakeFiles/asc2pix.dir/asc2pix.c.o
+[ 14%] Linking C executable ../../../bin/asc2pix
+[ 14%] Built target asc2pix
+[ 14%] Building C object src/conv/asc/CMakeFiles/pix2asc.dir/pix2asc.c.o
+[ 14%] Linking C executable ../../../bin/pix2asc
+[ 14%] Built target pix2asc
+[ 14%] Building C object src/sig/CMakeFiles/damdf.dir/damdf.c.o
+[ 14%] Linking C executable ../../bin/damdf
+[ 14%] Built target damdf
+[ 14%] Building C object src/sig/CMakeFiles/dauto.dir/dauto.c.o
+[ 14%] Linking C executable ../../bin/dauto
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_compile.c.o
+[ 15%] Built target dauto
+[ 15%] Building C object src/sig/CMakeFiles/dauto2.dir/dauto2.c.o
+[ 15%] Linking C executable ../../bin/dauto2
+[ 15%] Built target dauto2
+[ 15%] Building C object src/sig/CMakeFiles/dconv.dir/dconv.c.o
+[ 15%] Linking C executable ../../bin/dconv
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_compile_function.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_compile_operation.c.o
+[ 15%] Built target dconv
+[ 15%] Building C object src/sig/CMakeFiles/dfft.dir/dfft.c.o
+[ 15%] Building C object src/sig/CMakeFiles/dfft.dir/interp.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_compile_struct.c.o
+[ 15%] Building C object src/sig/CMakeFiles/dfft.dir/butter.c.o
+[ 15%] Linking C executable ../../bin/dfft
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_compile_variable.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_emit.c.o
+[ 15%] Built target dfft
+[ 15%] Building C object src/sig/CMakeFiles/dmod.dir/dmod.c.o
+[ 15%] Linking C executable ../../bin/dmod
+[ 15%] Built target dmod
+[ 15%] Building C object src/sig/CMakeFiles/dpeak.dir/dpeak.c.o
+[ 15%] Linking C executable ../../bin/dpeak
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_ir.c.o
+[ 15%] Built target dpeak
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_label.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_library_noise.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_link.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_log.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_mem.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_preprocess.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_print.c.o
+[ 15%] Building C object src/sig/CMakeFiles/dsel.dir/dsel.c.o
+[ 15%] Linking C executable ../../bin/dsel
+[ 15%] Built target dsel
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_simplify.c.o
+[ 15%] Building C object src/sig/CMakeFiles/dstats.dir/dstats.c.o
+[ 15%] Linking C executable ../../bin/dstats
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_storage.c.o
+[ 15%] Built target dstats
+[ 15%] Building C object src/sig/CMakeFiles/dwin.dir/dwin.c.o
+[ 15%] Building C object src/sig/CMakeFiles/dwin.dir/coswin.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_typeinfo.c.o
+[ 15%] Building C object src/sig/CMakeFiles/dwin.dir/hamwin.c.o
+[ 15%] Linking C executable ../../bin/dwin
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_utility.c.o
+[ 15%] Built target dwin
+[ 15%] Building C object src/sig/CMakeFiles/ihist.dir/ihist.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/shader/slang/slang_vartable.c.o
+[ 15%] Linking C executable ../../bin/ihist
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_aaline.c.o
+[ 15%] Built target ihist
+[ 15%] Building C object src/sig/CMakeFiles/imod.dir/imod.c.o
+[ 15%] Linking C executable ../../bin/imod
+[ 15%] Built target imod
+[ 15%] Building C object src/sig/CMakeFiles/istats.dir/istats.c.o
+[ 15%] Linking C executable ../../bin/istats
+[ 15%] Built target istats
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_aatriangle.c.o
+[ 15%] Building C object src/sig/CMakeFiles/smod.dir/smod.c.o
+[ 15%] Linking C executable ../../bin/smod
+[ 15%] Built target smod
+[ 15%] Building C object src/sig/CMakeFiles/umod.dir/umod.c.o
+[ 15%] Linking C executable ../../bin/umod
+[ 15%] Built target umod
+[ 15%] Building C object src/sig/CMakeFiles/ustats.dir/ustats.c.o
+[ 15%] Linking C executable ../../bin/ustats
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_accum.c.o
+[ 15%] Built target ustats
+[ 15%] Building C object src/sig/CMakeFiles/a-d.dir/a-d.c.o
+[ 15%] Linking C executable ../../bin/a-d
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_alpha.c.o
+[ 15%] Built target a-d
+[ 15%] Building C object src/sig/CMakeFiles/bw-d.dir/bw-d.c.o
+[ 15%] Linking C executable ../../bin/bw-d
+[ 15%] Built target bw-d
+[ 15%] Building C object src/sig/CMakeFiles/c-d.dir/c-d.c.o
+[ 15%] Linking C executable ../../bin/c-d
+[ 15%] Built target c-d
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_atifragshader.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_bitmap.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_blend.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_blit.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_buffers.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_context.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_copypix.c.o
+[ 15%] Building C object src/sig/CMakeFiles/d-a.dir/d-a.c.o
+[ 15%] Linking C executable ../../bin/d-a
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_depth.c.o
+[ 15%] Built target d-a
+[ 15%] Building C object src/sig/CMakeFiles/d-bw.dir/d-bw.c.o
+[ 15%] Linking C executable ../../bin/d-bw
+[ 15%] Built target d-bw
+[ 15%] Building C object src/sig/CMakeFiles/d-f.dir/d-f.c.o
+[ 15%] Linking C executable ../../bin/d-f
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_drawpix.c.o
+[ 15%] Built target d-f
+[ 15%] Building C object src/sig/CMakeFiles/d-i.dir/d-i.c.o
+[ 15%] Linking C executable ../../bin/d-i
+[ 15%] Built target d-i
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_feedback.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_fog.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_fragprog.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_imaging.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_lines.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_logic.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_masking.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_points.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_readpix.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_span.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_stencil.c.o
+[ 15%] Building C object src/sig/CMakeFiles/d-u.dir/d-u.c.o
+[ 15%] Linking C executable ../../bin/d-u
+[ 15%] Built target d-u
+[ 15%] Building C object src/sig/CMakeFiles/d2-c.dir/d2-c.c.o
+[ 15%] Linking C executable ../../bin/d2-c
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_texcombine.c.o
+[ 15%] Built target d2-c
+[ 15%] Building C object src/sig/CMakeFiles/f-d.dir/f-d.c.o
+[ 15%] Linking C executable ../../bin/f-d
+[ 15%] Built target f-d
+[ 15%] Building C object src/sig/CMakeFiles/f-i.dir/f-i.c.o
+[ 15%] Linking C executable ../../bin/f-i
+[ 15%] Built target f-i
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_texfilter.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_texstore.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_triangle.c.o
+[ 15%] Building C object src/sig/CMakeFiles/i-a.dir/i-a.c.o
+[ 15%] Linking C executable ../../bin/i-a
+[ 15%] Built target i-a
+[ 15%] Building C object src/sig/CMakeFiles/i-d.dir/i-d.c.o
+[ 15%] Linking C executable ../../bin/i-d
+[ 15%] Built target i-d
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast/s_zoom.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast_setup/ss_context.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/swrast_setup/ss_triangle.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_context.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_draw.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_pipeline.c.o
+[ 15%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_cull.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_fog.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_light.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_normals.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_points.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_program.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_render.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_texgen.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_texmat.c.o
+[ 16%] Building C object src/sig/CMakeFiles/i-f.dir/i-f.c.o
+[ 16%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vb_vertex.c.o
+[ 17%] Linking C executable ../../bin/i-f
+[ 17%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vertex.c.o
+[ 17%] Built target i-f
+[ 17%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vertex_generic.c.o
+[ 17%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/tnl/t_vp_build.c.o
+[ 17%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_context.c.o
+[ 17%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_exec.c.o
+[ 17%] Building C object src/sig/CMakeFiles/u-a.dir/u-a.c.o
+[ 17%] Linking C executable ../../bin/u-a
+[ 17%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_exec_api.c.o
+[ 17%] Built target u-a
+[ 17%] Building C object src/sig/CMakeFiles/u-bw.dir/u-bw.c.o
+[ 17%] Linking C executable ../../bin/u-bw
+[ 17%] Built target u-bw
+[ 18%] Building C object src/sig/CMakeFiles/u-d.dir/u-d.c.o
+[ 18%] Linking C executable ../../bin/u-d
+[ 18%] Built target u-d
+[ 18%] Building C object src/sig/CMakeFiles/u-f.dir/u-f.c.o
+[ 18%] Linking C executable ../../bin/u-f
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_exec_array.c.o
+[ 18%] Built target u-f
+[ 18%] Building C object src/util/CMakeFiles/alias-pix.dir/alias-pix.c.o
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_exec_draw.c.o
+[ 18%] Linking C executable ../../bin/alias-pix
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_exec_eval.c.o
+[ 18%] Built target alias-pix
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_rebase.c.o
+[ 18%] Building C object src/util/CMakeFiles/ap-pix.dir/ap-pix.c.o
+[ 18%] Linking C executable ../../bin/ap-pix
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_save.c.o
+[ 18%] Building C object src/util/CMakeFiles/bw-ps.dir/bw-ps.c.o
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_save_api.c.o
+[ 18%] Built target ap-pix
+[ 18%] Linking C executable ../../bin/bw-ps
+[ 18%] Built target bw-ps
+[ 18%] Building C object src/util/CMakeFiles/bwcrop.dir/bwcrop.c.o
+[ 18%] Linking C executable ../../bin/bwcrop
+[ 18%] Built target bwcrop
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_save_draw.c.o
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_save_loopback.c.o
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_split.c.o
+[ 18%] Building C object src/util/CMakeFiles/bwdiff.dir/bwdiff.c.o
+[ 18%] Linking C executable ../../bin/bwdiff
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_split_copy.c.o
+[ 18%] Building C object src/other/libosmesa/src/CMakeFiles/osmesa.dir/vbo/vbo_split_inplace.c.o
+[ 18%] Built target bwdiff
+[ 18%] Linking C shared library ../../../../lib/libosmesa.so
+[ 18%] Built target osmesa
+[ 18%] Building C object src/util/CMakeFiles/bwhisteq.dir/bwhisteq.c.o
+[ 19%] Linking C executable ../../bin/bwhisteq
+[ 19%] Built target bwhisteq
+[ 19%] Building C object src/util/CMakeFiles/bwmod.dir/bwmod.c.o
+[ 19%] Building C object src/util/CMakeFiles/bwrot.dir/bwrot.c.o
+[ 19%] Linking C executable ../../bin/bwmod
+[ 19%] Linking C executable ../../bin/bwrot
+[ 19%] Built target bwmod
+[ 19%] Building C object src/util/CMakeFiles/bwscale.dir/bwscale.c.o
+[ 19%] Built target bwrot
+[ 19%] Linking C executable ../../bin/bwscale
+[ 19%] Building C object src/util/CMakeFiles/bwshrink.dir/bwshrink.c.o
+[ 19%] Building C object src/util/CMakeFiles/bwstat.dir/bwstat.c.o
+[ 19%] Linking C executable ../../bin/bwshrink
+[ 19%] Linking C executable ../../bin/bwstat
+[ 19%] Built target bwscale
+[ 19%] Building C object src/util/CMakeFiles/bwthresh.dir/bwthresh.c.o
+[ 19%] Linking C executable ../../bin/bwthresh
+[ 19%] Built target bwshrink
+[ 19%] Built target bwstat
+[ 19%] Building C object src/util/CMakeFiles/cv.dir/cv.c.o
+[ 19%] Building C object src/util/CMakeFiles/decimate.dir/decimate.c.o
+[ 20%] Linking C executable ../../bin/decimate
+[ 20%] Linking C executable ../../bin/cv
+[ 20%] Built target bwthresh
+[ 20%] Built target decimate
+[ 20%] Building C object src/util/CMakeFiles/dpix-pix.dir/dpix-pix.c.o
+[ 20%] Built target cv
+[ 20%] Building C object src/util/CMakeFiles/gencolor.dir/gencolor.c.o
+[ 20%] Linking C executable ../../bin/dpix-pix
+[ 20%] Linking C executable ../../bin/gencolor
+[ 20%] Built target dpix-pix
+[ 20%] Built target gencolor
+[ 20%] Building C object src/util/CMakeFiles/loop.dir/loop.c.o
+[ 20%] Linking C executable ../../bin/loop
+[ 20%] Built target loop
+[ 20%] Building C object src/util/CMakeFiles/lowp.dir/lowp.c.o
+[ 20%] Building C object src/util/CMakeFiles/mac-pix.dir/mac-pix.c.o
+[ 20%] Linking C executable ../../bin/lowp
+[ 20%] Linking C executable ../../bin/mac-pix
+[ 20%] Built target mac-pix
+[ 20%] Building C object src/util/CMakeFiles/pix-alias.dir/pix-alias.c.o
+[ 20%] Built target lowp
+[ 20%] Building C object src/util/CMakeFiles/pix-ps.dir/pix-ps.c.o
+[ 20%] Building C object src/util/CMakeFiles/pix-sun.dir/pix-sun.c.o
+[ 20%] Linking C executable ../../bin/pix-alias
+[ 20%] Linking C executable ../../bin/pix-ps
+[ 20%] Linking C executable ../../bin/pix-sun
+[ 20%] Built target pix-alias
+[ 20%] Building C object src/util/CMakeFiles/pix3filter.dir/pix3filter.c.o
+[ 20%] Built target pix-ps
+[ 20%] Building C object src/util/CMakeFiles/pixbackgnd.dir/pixbackgnd.c.o
+[ 20%] Built target pix-sun
+[ 20%] Linking C executable ../../bin/pix3filter
+[ 20%] Building C object src/util/CMakeFiles/pixblend.dir/pixblend.c.o
+[ 20%] Linking C executable ../../bin/pixbackgnd
+[ 20%] Linking C executable ../../bin/pixblend
+[ 20%] Built target pix3filter
+[ 20%] Built target pixbackgnd
+[ 20%] Built target pixblend
+[ 20%] Building C object src/util/CMakeFiles/pixbustup.dir/pixbustup.c.o
+[ 20%] Building C object src/util/CMakeFiles/pixcolors.dir/pixcolors.c.o
+[ 20%] Building CXX object src/util/CMakeFiles/pixcount.dir/pixcount.cpp.o
+[ 20%] Linking C executable ../../bin/pixbustup
+[ 20%] Linking C executable ../../bin/pixcolors
+[ 20%] Linking CXX executable ../../bin/pixcount
+[ 20%] Built target pixbustup
+[ 20%] Building C object src/util/CMakeFiles/pixcrop.dir/pixcrop.c.o
+[ 20%] Built target pixcolors
+[ 20%] Linking C executable ../../bin/pixcrop
+[ 20%] Built target pixcount
+[ 20%] Built target pixcrop
+[ 20%] Building C object src/util/CMakeFiles/pixdiff.dir/pixdiff.c.o
+[ 20%] Linking C executable ../../bin/pixdiff
+[ 20%] Built target pixdiff
+[ 20%] Building C object src/util/CMakeFiles/pixelswap.dir/pixelswap.c.o
+[ 20%] Linking C executable ../../bin/pixelswap
+[ 20%] Built target pixelswap
+[ 20%] Building C object src/util/CMakeFiles/pixembed.dir/pixembed.c.o
+[ 20%] Linking C executable ../../bin/pixembed
+[ 20%] Built target pixembed
+[ 20%] Building C object src/util/CMakeFiles/pixfilter.dir/pixfilter.c.o
+[ 20%] Linking C executable ../../bin/pixfilter
+[ 20%] Built target pixfilter
+[ 20%] Building C object src/util/CMakeFiles/pixinterp2x.dir/pixinterp2x.c.o
+[ 20%] Linking C executable ../../bin/pixinterp2x
+[ 20%] Built target pixinterp2x
+[ 20%] Building C object src/util/CMakeFiles/pixmatte.dir/pixmatte.c.o
+[ 20%] Linking C executable ../../bin/pixmatte
+[ 20%] Built target pixmatte
+[ 20%] Building C object src/util/CMakeFiles/pixmerge.dir/pixmerge.c.o
+[ 20%] Linking C executable ../../bin/pixmerge
+[ 20%] Built target pixmerge
+[ 20%] Building C object src/util/CMakeFiles/pixrot.dir/pixrot.c.o
+[ 20%] Linking C executable ../../bin/pixrot
+[ 20%] Building C object src/util/CMakeFiles/pixsaturate.dir/pixsaturate.c.o
+[ 20%] Built target pixrot
+[ 20%] Building C object src/util/CMakeFiles/pixscale.dir/pixscale.c.o
+[ 20%] Building C object src/util/CMakeFiles/pixshrink.dir/pixshrink.c.o
+[ 20%] Linking C executable ../../bin/pixsaturate
+[ 20%] Linking C executable ../../bin/pixscale
+[ 20%] Linking C executable ../../bin/pixshrink
+[ 20%] Built target pixsaturate
+[ 20%] Building C object src/util/CMakeFiles/pixstat.dir/pixstat.c.o
+[ 20%] Linking C executable ../../bin/pixstat
+[ 20%] Built target pixshrink
+[ 20%] Built target pixscale
+[ 20%] Building C object src/util/CMakeFiles/pixsubst.dir/pixsubst.c.o
+[ 20%] Building C object src/util/CMakeFiles/pixtile.dir/pixtile.c.o
+[ 20%] Linking C executable ../../bin/pixsubst
+[ 20%] Linking C executable ../../bin/pixtile
+[ 20%] Built target pixstat
+[ 20%] Built target pixsubst
+[ 20%] Building C object src/util/CMakeFiles/pixuntile.dir/pixuntile.c.o
+[ 20%] Building C object src/util/CMakeFiles/sun-pix.dir/sun-pix.c.o
+[ 20%] Built target pixtile
+[ 20%] Built target qged_plugins
+[ 20%] Linking C executable ../../bin/pixuntile
+[ 20%] Linking C executable ../../bin/sun-pix
+[ 20%] Built target pixuntile
+[ 20%] Building C object src/mged/CMakeFiles/cad_boundp.dir/cad_boundp.c.o
+[ 20%] Built target sun-pix
+[ 20%] Linking C executable ../../bin/cad_boundp
+[ 20%] Building C object src/mged/CMakeFiles/cad_parea.dir/cad_parea.c.o
+[ 20%] Linking C executable ../../bin/cad_parea
+[ 20%] Built target cad_parea
+[ 20%] Built target cad_boundp
+[ 20%] Building C object bench/CMakeFiles/pixcmp.dir/pixcmp.c.o
+[ 20%] Building C object bench/CMakeFiles/bark.dir/benchmark.c.o
+[ 21%] Building CXX object regress/coverage/CMakeFiles/covgcheck.dir/covgcheck.cpp.o
+[ 21%] Linking C executable ../bin/pixcmp
+[ 21%] Building C object bench/CMakeFiles/bark.dir/compute.c.o
+[ 21%] Building C object bench/CMakeFiles/bark.dir/run.c.o
+[ 21%] Building C object bench/CMakeFiles/bark.dir/clean.c.o
+[ 21%] Linking C executable ../bin/bark
+[ 21%] Built target pixcmp
+[ 21%] Building CXX object regress/repository/CMakeFiles/repocheck.dir/repocheck.cpp.o
+[ 21%] Built target bark
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/anim.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/complex.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/globals.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/mat.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/msr.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/mt19937ar.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/multipoly.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/noise.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/poly.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/qmath.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/rand.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/randsph.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/sobol.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/sphmap.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/str.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/tabdata.c.o
+[ 21%] Linking CXX executable covgcheck
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/ulp.c.o
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/vers.c.o
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[ 21%] Building C object src/libbn/CMakeFiles/libbn-obj.dir/wavelet.c.o
+[ 21%] Built target libbn-obj
+[ 21%] Generating ../../../lib/libnetpbm.so
+[ 21%] Built target netpbm_stage
+[ 21%] Generating ../../../lib/libz_brl.so
+[ 21%] Generating ../../../lib/libz_brl.so.1
+[ 22%] Generating ../../../lib/libz_brl.so.1.2.13.f-brl
+[ 22%] Built target zlib_stage
+[ 22%] Building C object regress/repository/CMakeFiles/repocheck.dir/strnstr.c.o
+[ 22%] Linking CXX executable repocheck
+lto-wrapper: warning: using serial compilation of 3 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+[ 22%] Built target covgcheck
+[ 22%] Generating ../../../lib/libregex_brl.so
+[ 22%] Generating ../../../lib/libregex_brl.so.1
+[ 23%] Generating ../../../lib/libregex_brl.so.1.0.4
+[ 23%] Built target regex_stage
+[ 23%] Creating directories for 'TCL_BLD'
+[ 23%] Performing download step (DIR copy) for 'TCL_BLD'
+[ 23%] No update step for 'TCL_BLD'
+[ 23%] Performing patch step for 'TCL_BLD'
+[ 23%] Building CXX object src/other/openNURBS/CMakeFiles/openNURBS-obj.dir/opennurbs_x.cpp.o
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs_system.h:115,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs.h:29,
+                 from /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs_x.cpp:16:
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs_system_runtime.h:208:2: error: #error Exactly one of ON_LITTLE_ENDIAN or ON_BIG_ENDIAN should be defined.
+  208 | #error Exactly one of ON_LITTLE_ENDIAN or ON_BIG_ENDIAN should be defined.
+      |  ^~~~~
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs_system.h:329:2: error: #error unable to automatically set ON_WCHAR_T_ENCODING
+  329 | #error unable to automatically set ON_WCHAR_T_ENCODING
+      |  ^~~~~
+Patching /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/TCL_BLD-prefix/src/TCL_BLD/unix/configure
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs_system.h:704:2: error: #error Either ON_LITTLE_ENDIAN or ON_BIG_ENDIAN must be defined.
+  704 | #error Either ON_LITTLE_ENDIAN or ON_BIG_ENDIAN must be defined.
+      |  ^~~~~
+In file included from /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs.h:65:
+/var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/src/other/openNURBS/opennurbs_color.h:142:2: error: #error unknown endian
+  142 | #error unknown endian
+      |  ^~~~~
+Patching /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/TCL_BLD-prefix/src/TCL_BLD/macosx/configure
+Patching /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/TCL_BLD-prefix/src/TCL_BLD/unix/tcl.m4
+Patching /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/TCL_BLD-prefix/src/TCL_BLD/unix/tclUnixInit.c
+Patching /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/TCL_BLD-prefix/src/TCL_BLD/generic/tclPkgConfig.c
+[ 23%] Performing configure step for 'TCL_BLD'
+checking whether to use symlinks for manpages... no
+checking whether to compress the manpages... no
+checking whether to add a package name suffix for the manpages... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... make[2]: *** [src/other/openNURBS/CMakeFiles/openNURBS-obj.dir/build.make:76: src/other/openNURBS/CMakeFiles/openNURBS-obj.dir/opennurbs_x.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:16063: src/other/openNURBS/CMakeFiles/openNURBS-obj.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+yes
+checking for gcc option to accept ANSI C... none needed
+checking for inline... inline
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dirent.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking if the compiler understands -pipe... yes
+checking for pthread_mutex_init in -lpthread... yes
+checking for pthread_attr_setstacksize... [ 23%] Built target repocheck
+yes
+checking for pthread_atfork... yes
+checking for building with threads... yes
+checking for sin... no
+checking for main in -linet... no
+checking net/errno.h usability... no
+checking net/errno.h presence... no
+checking for net/errno.h... no
+checking for connect... yes
+checking for gethostbyname... yes
+checking how to build libraries... shared
+checking for tclsh... /usr/bin/tclsh8.6
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gz_header... yes
+checking for library containing brl_deflateSetHeader... -lz_brl
+checking for ranlib... ranlib
+checking if 64bit support is requested... no
+checking if 64bit Sparc VIS support is requested... no
+checking if compiler supports visibility "hidden"... yes
+checking if rpath support is requested... yes
+checking system version... Linux-6.7.8-1-aarch64-ARCH
+checking for dlopen in -ldl... yes
+checking for ar... ar
+checking for cast to union support... yes
+checking for working -fno-lto... yes
+checking for build with symbols... no
+checking for required early compiler flags...  _LARGEFILE64_SOURCE
+checking for 64-bit integer type... using long
+checking whether byte ordering is bigendian... no
+checking for getcwd... yes
+checking for mkstemp... yes
+checking for opendir... yes
+checking for strtol... yes
+checking for waitpid... yes
+checking for strerror... yes
+checking for getwd... yes
+checking for wait3... yes
+checking for uname... yes
+checking for realpath... yes
+checking for getnameinfo... yes
+checking for getaddrinfo... yes
+checking for freeaddrinfo... yes
+checking for gai_strerror... yes
+checking for struct addrinfo... yes
+checking for struct in6_addr... yes
+checking for struct sockaddr_in6... yes
+checking for struct sockaddr_storage... yes
+checking for getpwuid_r... yes
+checking for getpwuid_r with 5 args... yes
+checking for getpwnam_r... yes
+checking for getpwnam_r with 5 args... yes
+checking for getgrgid_r... yes
+checking for getgrgid_r with 5 args... yes
+checking for getgrnam_r... yes
+checking for getgrnam_r with 5 args... yes
+checking whether gethostbyname_r is declared... yes
+checking for gethostbyname_r... yes
+checking for gethostbyname_r with 6 args... yes
+checking whether gethostbyaddr_r is declared... yes
+checking for gethostbyaddr_r... yes
+checking for gethostbyaddr_r with 7 args... no
+checking for gethostbyaddr_r with 8 args... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/modem.h usability... no
+checking sys/modem.h presence... no
+checking for sys/modem.h... no
+checking for fd_set in sys/types... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for gmtime_r... yes
+checking for localtime_r... yes
+checking for mktime... yes
+checking tm_tzadj in struct tm... no
+checking tm_gmtoff in struct tm... yes
+checking long timezone variable... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_blksize... yes
+checking for blkcnt_t... yes
+checking for fstatfs... yes
+checking for working memcmp... yes
+checking for memmove... yes
+checking for strstr... yes
+checking proper strstr implementation... ok
+checking for strtoul... yes
+checking proper strtoul implementation... ok
+checking for mode_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for socklen_t... yes
+checking for intptr_t... yes
+checking for uintptr_t... yes
+checking for opendir... (cached) yes
+checking union wait... no
+checking for strncasecmp... yes
+checking for gettimeofday... yes
+checking for gettimeofday declaration... present
+checking whether char is unsigned... yes
+checking signed char declarations... yes
+checking for a putenv() that copies the buffer... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking whether to use nl_langinfo... yes
+checking for chflags... no
+checking for mkstemps... yes
+checking isnan... yes
+checking for fts... yes
+checking for sys/ioctl.h... (cached) yes
+checking sys/filio.h usability... no
+checking sys/filio.h presence... no
+checking for sys/filio.h... no
+checking system version... (cached) Linux-6.7.8-1-aarch64-ARCH
+checking FIONBIO vs. O_NONBLOCK for nonblocking I/O... O_NONBLOCK
+checking whether to use dll unloading... yes
+checking for timezone data... /usr/share/zoneinfo
+checking whether to enable DTrace support... no
+checking whether the cpuid instruction is usable... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating dltest/Makefile
+config.status: creating tclConfig.sh
+config.status: creating tcl.pc
+[ 23%] Performing build step for 'TCL_BLD'
+-- PROJ_BLD build command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/PROJ_BLD-prefix/src/PROJ_BLD-stamp/PROJ_BLD-build-*.log
+[ 23%] Performing install step for 'PROJ_BLD'
+-- PROJ_BLD install command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/PROJ_BLD-prefix/src/PROJ_BLD-stamp/PROJ_BLD-install-*.log
+[ 23%] Completed 'PROJ_BLD'
+[ 23%] Built target PROJ_BLD
+-- TCL_BLD build command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/TCL_BLD-prefix/src/TCL_BLD-stamp/TCL_BLD-build-*.log
+[ 23%] Performing install step for 'TCL_BLD'
+-- TCL_BLD install command succeeded.  See also /var/lib/phoronix-test-suite/installed-tests/pts/brl-cad-1.5.0/brlcad-7.36.0/build/src/other/ext/TCL_BLD-prefix/src/TCL_BLD-stamp/TCL_BLD-install-*.log
+[ 23%] Completed 'TCL_BLD'
+[ 23%] Built target TCL_BLD
+make: *** [Makefile:166: all] Error 2
