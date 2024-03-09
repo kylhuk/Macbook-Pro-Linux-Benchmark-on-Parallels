@@ -1,0 +1,57 @@
+dumpe2fs 1.47.0 (5-Feb-2023)
+Filesystem volume name:   
+Last mounted on:          /
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file dir_nlink extra_isize metadata_csum
+Filesystem flags:         unsigned_directory_hash 
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              8298496
+Block count:              33172736
+Reserved block count:     1658636
+Overhead clusters:        667369
+Free blocks:              27031519
+Free inodes:              8071778
+First block:              0
+Block size:               4096
+Fragment size:            4096
+Group descriptor size:    64
+Reserved GDT blocks:      1024
+Blocks per group:         32768
+Fragments per group:      32768
+Inodes per group:         8192
+Inode blocks per group:   512
+Flex block group size:    16
+Filesystem created:       Sat Mar  9 05:47:03 2024
+Last mount time:          Sat Mar  9 13:27:14 2024
+Last write time:          Sat Mar  9 13:27:14 2024
+Mount count:              3
+Maximum mount count:      -1
+Last checked:             Sat Mar  9 05:47:03 2024
+Check interval:           0 ()
+Lifetime writes:          35 GB
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:	          256
+Required extra isize:     32
+Desired extra isize:      32
+Journal inode:            8
+First orphan inode:       4718596
+Default directory hash:   half_md4
+Journal backup:           inode blocks
+Checksum type:            crc32c
+Checksum:                 0x17c33659
+Journal features:         journal_incompat_revoke journal_64bit journal_checksum_v3
+Total journal size:       512M
+Total journal blocks:     131072
+Max transaction length:   131072
+Fast commit length:       0
+Journal sequence:         0x0000878a
+Journal start:            1
+Journal checksum type:    crc32c
+Journal checksum:         0x1b6f4840
+

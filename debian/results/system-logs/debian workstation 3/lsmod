@@ -1,0 +1,89 @@
+Module                  Size  Used by
+rfkill                 36864  0
+qrtr                   40960  2
+binfmt_misc            24576  1
+nls_ascii              16384  1
+nls_cp437              20480  1
+vfat                   24576  1
+fat                    77824  1 vfat
+aes_ce_blk             32768  0
+aes_ce_cipher          16384  1 aes_ce_blk
+polyval_ce             16384  0
+polyval_generic        16384  1 polyval_ce
+ghash_ce               20480  0
+snd_hda_codec_generic    77824  1
+gf128mul               16384  2 polyval_generic,ghash_ce
+sha3_ce                16384  0
+ledtrig_audio          16384  1 snd_hda_codec_generic
+sha3_generic           16384  1 sha3_ce
+snd_hda_intel          45056  0
+sha512_ce              16384  0
+snd_intel_dspcfg       20480  1 snd_hda_intel
+sha512_arm64           20480  1 sha512_ce
+snd_hda_codec         126976  2 snd_hda_codec_generic,snd_hda_intel
+sha2_ce                16384  0
+snd_hda_core           86016  3 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
+snd_hwdep              20480  1 snd_hda_codec
+sha256_arm64           24576  1 sha2_ce
+snd_pcm               118784  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+sha1_ce                16384  0
+virtio_balloon         28672  0
+snd_timer              40960  1 snd_pcm
+snd                    98304  6 snd_hda_codec_generic,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_pcm
+soundcore              16384  1 snd
+acpi_tad               20480  0
+joydev                 32768  0
+evdev                  28672  0
+sg                     45056  0
+dm_mod                139264  0
+fuse                  135168  1
+loop                   36864  0
+dax                    32768  1 dm_mod
+efi_pstore             16384  0
+configfs               49152  1
+efivarfs               20480  1
+ip_tables              32768  0
+x_tables               36864  1 ip_tables
+autofs4                45056  2
+ext4                  765952  1
+crc16                  16384  1 ext4
+mbcache                20480  1 ext4
+jbd2                  139264  1 ext4
+crc32c_generic         16384  2
+sd_mod                 61440  4
+t10_pi                 16384  1 sd_mod
+hid_generic            16384  0
+virtio_gpu             69632  0
+virtio_dma_buf         16384  1 virtio_gpu
+drm_shmem_helper       20480  1 virtio_gpu
+usbhid                 57344  0
+crc64_rocksoft         20480  1 t10_pi
+crc64                  20480  1 crc64_rocksoft
+crc_t10dif             20480  1 t10_pi
+hid                   135168  2 usbhid,hid_generic
+sr_mod                 28672  0
+crct10dif_generic      16384  0
+cdrom                  61440  1 sr_mod
+drm_kms_helper        139264  3 virtio_gpu
+virtio_net             57344  0
+net_failover           20480  1 virtio_net
+drm                   442368  4 drm_kms_helper,drm_shmem_helper,virtio_gpu
+failover               16384  1 net_failover
+xhci_pci               24576  0
+xhci_hcd              258048  1 xhci_pci
+ahci_platform          16384  3
+libahci_platform       20480  1 ahci_platform
+libahci                40960  2 libahci_platform,ahci_platform
+libata                299008  3 libahci,libahci_platform,ahci_platform
+ehci_pci               20480  0
+crct10dif_ce           16384  1
+ehci_hcd               90112  1 ehci_pci
+crct10dif_common       16384  3 crct10dif_ce,crct10dif_generic,crc_t10dif
+usbcore               266240  5 xhci_hcd,ehci_pci,usbhid,ehci_hcd,xhci_pci
+scsi_mod              229376  4 sd_mod,libata,sg,sr_mod
+virtio_pci             28672  0
+virtio_pci_legacy_dev    16384  1 virtio_pci
+usb_common             16384  3 xhci_hcd,usbcore,ehci_hcd
+virtio_pci_modern_dev    16384  1 virtio_pci
+scsi_common            16384  4 scsi_mod,libata,sg,sr_mod
+virtio_mmio            24576  0

@@ -1,0 +1,7 @@
++ configuring for {swet} @ Sat Mar 9 01:30:21 PM CST 2024 on Linux bad 6.1.0-18-arm64 #1 SMP Debian 6.1.76-1 (2024-02-01) aarch64 GNU/Linux
++ initializing ... done
++ looking for cc ... found cc
++ checking if cc works ... yes
++ looking for curses ... ___ MISSING !
++ cleaning up ... done
+make: *** No targets specified and no makefile found.  Stop.

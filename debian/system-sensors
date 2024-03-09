@@ -1,0 +1,41 @@
+
+
+[1;32mPhoronix Test Suite v10.8.4[0m
+[1;32mSupported Sensors For This System[0m
+
+[3mcpu.peak-freq[0m    [1mCPU Peak Freq (Highest CPU Core Frequency): [0m -1   [1;30mMegahertz[0m 
+[3mcpu.usage[0m        [1mCPU Usage (CPU0): [0m                           0.00 [1;30mPercent[0m   
+[3mcpu.usage[0m        [1mCPU Usage (CPU1): [0m                           0.00 [1;30mPercent[0m   
+[3mcpu.usage[0m        [1mCPU Usage (CPU2): [0m                           0.00 [1;30mPercent[0m   
+[3mcpu.usage[0m        [1mCPU Usage (CPU3): [0m                           0.00 [1;30mPercent[0m   
+[3mcpu.usage[0m        [1mCPU Usage (Summary): [0m                        0.00 [1;30mPercent[0m   
+[3mgpu.fan-speed[0m    [1mGPU Fan Speed: [0m                              100  [1;30mPercent[0m   
+[3mhdd.read-speed[0m   [1mDrive Read Speed (sda): [0m                     0.00 [1;30mMB/s[0m      
+[3mhdd.write-speed[0m  [1mDrive Write Speed (sda): [0m                    0.00 [1;30mMB/s[0m      
+[3mmemory.usage[0m     [1mMemory Usage: [0m                               427  [1;30mMegabytes[0m 
+[3mswap.usage[0m       [1mSwap Usage: [0m                                 0    [1;30mMegabytes[0m 
+[3msys.iowait[0m       [1mSystem Iowait: [0m                              0.00 [1;30mPercent[0m   
+
+[1;32mUnsupported Sensors For This System[0m
+
+- Ambient Temperature
+- Cgroup Cpu Usage
+- CPU Fan Speed
+- CPU Frequency
+- CPU Power Consumption
+- CPU Temperature
+- CPU Voltage
+- GPU Frequency
+- GPU Memory Usage
+- GPU Power Consumption
+- GPU Temperature
+- GPU Usage
+- GPU Voltage
+- Drive Temperature
+- Memory Temperature
+- System Fan Speed
+- System Power Consumption
+- System Temperature
+- System Voltage
+
+

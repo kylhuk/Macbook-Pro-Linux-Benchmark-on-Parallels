@@ -1,0 +1,39 @@
+#####
+debian workstation 2 - Run 1
+2024-03-09 18:11:56
+#####
+Configuration used: cores = 4, boxes1d = 96
+Time spent in different stages of CPU/MCPU KERNEL:
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: VARIABLES
+ 0.000024000001 s,  0.000009874031 % : MCPU: SET DEVICE
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: INPUTS
+243.061798095703 s, 99.999984741211 % : CPU/MCPU: KERNEL
+Total time:
+243.061828613281 s
+
+#####
+debian workstation 2 - Run 2
+2024-03-09 18:16:06
+#####
+Configuration used: cores = 4, boxes1d = 96
+Time spent in different stages of CPU/MCPU KERNEL:
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: VARIABLES
+ 0.000006000000 s,  0.000002468878 % : MCPU: SET DEVICE
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: INPUTS
+243.025329589844 s, 100.000000000000 % : CPU/MCPU: KERNEL
+Total time:
+243.025329589844 s
+
+#####
+debian workstation 2 - Run 3
+2024-03-09 18:20:14
+#####
+Configuration used: cores = 4, boxes1d = 96
+Time spent in different stages of CPU/MCPU KERNEL:
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: VARIABLES
+ 0.000006000000 s,  0.000002469227 % : MCPU: SET DEVICE
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: INPUTS
+242.990966796875 s, 99.999992370605 % : CPU/MCPU: KERNEL
+Total time:
+242.990982055664 s
+
