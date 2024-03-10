@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>fedora workstation</Title>
+    <LastModified>2024-03-09 17:34:45</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>parallels testing on Fedora Linux 39 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>fedora workstation</Identifier>
+    <Hardware>Processor: ARMv8 (4 Cores), Motherboard: Parallels ARM Virtual Machine v0.1 (19.3.0 54924 BIOS), Memory: 1 x 8 GB DRAM, Disk: 137GB Fedora Linux-1 S, Graphics: Red Hat Virtio 1.0 GPU, Audio: Generic 1ab8, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Fedora Linux 39, Kernel: 6.5.6-300.fc39.aarch64 (aarch64), Desktop: GNOME Shell 45.0, Display Server: X Server, File-System: ext4, Screen Resolution: 1024x768, System Layer: parallels</Software>
+    <User></User>
+    <TimeStamp>2024-03-09 16:55:45</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"kernel-extra-details":"Transparent Huge Pages: madvise","python":"Python 3.12.0","security":"SELinux + gather_data_sampling: Not affected + itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + mmio_stale_data: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of __user pointer sanitization + spectre_v2: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/parboil-1.2.1</Identifier>
+    <Title>Parboil</Title>
+    <AppVersion>2.5</AppVersion>
+    <Arguments>cutcp omp_base large</Arguments>
+    <Description>Test: OpenMP CUTCP</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.07:0.06:0.05","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rodinia-1.3.2</Identifier>
+    <Title>Rodinia</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>OMP_LAVAMD</Arguments>
+    <Description>Test: OpenMP LavaMD</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>253.316</Value>
+        <RawString>253.47:253.341:253.138</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"253.47:253.34:253.14"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rodinia-1.3.2</Identifier>
+    <Title>Rodinia</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>OMP_CFD</Arguments>
+    <Description>Test: OpenMP CFD Solver</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>13.813</Value>
+        <RawString>13.945:13.772:13.722</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"13.95:13.77:13.72"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/x265-1.3.0</Identifier>
+    <Title>x265</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
+    <Description>Video Input: Bosphorus 4K</Description>
+    <Scale>Frames Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>5.25</Value>
+        <RawString>5.24:5.26:5.26</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O3 -rdynamic -lpthread -lrt -ldl"},"test-run-times":"114.50:114.23:114.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/x265-1.3.0</Identifier>
+    <Title>x265</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
+    <Description>Video Input: Bosphorus 1080p</Description>
+    <Scale>Frames Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>24.29</Value>
+        <RawString>24.21:24.27:24.4</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O3 -rdynamic -lpthread -lrt -ldl"},"test-run-times":"24.81:24.75:24.62"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/himeno-1.3.0</Identifier>
+    <Title>Himeno Benchmark</Title>
+    <AppVersion>3.0</AppVersion>
+    <Arguments></Arguments>
+    <Description>Poisson Pressure Solver</Description>
+    <Scale>MFLOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>9383.360189</Value>
+        <RawString>9541.533491:9389.993309:9218.553766</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"},"test-run-times":"26.85:28.57:30.34"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/swet-1.0.0</Identifier>
+    <Title>Swet</Title>
+    <AppVersion>1.5.16</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":""},"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: swet: line 3: .\/swet: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sysbench-1.1.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>1.0.20</AppVersion>
+    <Arguments>memory run</Arguments>
+    <Description>Test: Memory</Description>
+    <Scale>MiB/sec</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>8001.94</Value>
+        <RawString>8042.9:7987.77:7975.14</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -funroll-loops -rdynamic -ldl -laio -lm"},"test-run-times":"12.75:12.83:12.85"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sysbench-1.1.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>1.0.20</AppVersion>
+    <Arguments>cpu run</Arguments>
+    <Description>Test: CPU</Description>
+    <Scale>Events Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>40148.02</Value>
+        <RawString>40110.83:40127.63:40205.61</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -funroll-loops -rdynamic -ldl -laio -lm"},"test-run-times":"90.01:90.01:90.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/git-1.1.0</Identifier>
+    <Title>Git</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>Time To Complete Common Git Commands</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value>35.115</Value>
+        <RawString>34.695:35.664:34.985</RawString>
+        <JSON>{"install-footnote":"git version 2.41.0","test-run-times":"34.69:35.66:34.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/brl-cad-1.5.0</Identifier>
+    <Title>BRL-CAD</Title>
+    <AppVersion>7.36</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>VGR Performance Metric</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>fedora workstation</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-std=c++14 -pipe -fvisibility=hidden -fno-strict-aliasing -fno-common -fexceptions -ftemplate-depth-128 -ggdb3 -O3 -fipa-pta -fstrength-reduce -finline-functions -flto -ldl -lm"},"test-run-times":"0.04","error":"The test quit with a non-zero exit status. E: ERROR:  Could not find the BRL-CAD raytracer"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

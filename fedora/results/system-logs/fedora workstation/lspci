@@ -1,0 +1,57 @@
+Slot:	00:01.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) HD Audio Controller [293e]
+SVendor:	Parallels, Inc. [1ab8]
+SDevice:	Device [0400]
+ProgIf:	00
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:02.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller [265c]
+SVendor:	Parallels, Inc. [1ab8]
+SDevice:	Device [0400]
+Rev:	02
+ProgIf:	20
+Driver:	ehci-pci
+
+Slot:	00:03.0
+Class:	USB controller [0c03]
+Vendor:	NEC Corporation [1033]
+Device:	uPD720200 USB 3.0 Host Controller [0194]
+SVendor:	Parallels, Inc. [1ab8]
+SDevice:	Device [0400]
+Rev:	04
+ProgIf:	30
+Driver:	xhci_hcd
+
+Slot:	00:05.0
+Class:	Ethernet controller [0200]
+Vendor:	Red Hat, Inc. [1af4]
+Device:	Virtio network device [1000]
+SVendor:	Parallels, Inc. [1ab8]
+SDevice:	Device [0001]
+ProgIf:	00
+Driver:	virtio-pci
+
+Slot:	00:09.0
+Class:	Unassigned class [ff00]
+Vendor:	Parallels, Inc. [1ab8]
+Device:	Virtual Machine Communication Interface [4000]
+SVendor:	Parallels, Inc. [1ab8]
+SDevice:	Device [0400]
+ProgIf:	00
+
+Slot:	00:0a.0
+Class:	VGA compatible controller [0300]
+Vendor:	Red Hat, Inc. [1af4]
+Device:	Virtio 1.0 GPU [1050]
+SVendor:	Parallels, Inc. [1ab8]
+SDevice:	Device [0010]
+Rev:	01
+ProgIf:	00
+Driver:	virtio-pci
+

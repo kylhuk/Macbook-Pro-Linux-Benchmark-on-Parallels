@@ -1,0 +1,18 @@
+#####
+fedora workstation - Run 1
+2024-03-09 17:24:08
+#####
+/var/lib/phoronix-test-suite/installed-tests/pts/swet-1.0.0/swet: line 3: ./swet: No such file or directory
+
+#####
+fedora workstation - Run 2
+2024-03-09 17:24:12
+#####
+/var/lib/phoronix-test-suite/installed-tests/pts/swet-1.0.0/swet: line 3: ./swet: No such file or directory
+
+#####
+fedora workstation - Run 3
+2024-03-09 17:24:14
+#####
+/var/lib/phoronix-test-suite/installed-tests/pts/swet-1.0.0/swet: line 3: ./swet: No such file or directory
+

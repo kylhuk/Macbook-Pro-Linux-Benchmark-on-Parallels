@@ -1,0 +1,13 @@
+#####
+fedora workstation - Run 1
+2024-03-09 17:34:45
+#####
+WARNING: Passing unknown option [-P4] to RT
+B R L - C A D   B E N C H M A R K
+=================================
+Running ./bench/benchmark on Sat Mar  9 06:34:45 PM CET 2024
+Logging output to run-78649-benchmark.log
+Linux fedora 6.5.6-300.fc39.aarch64 #1 SMP PREEMPT_DYNAMIC Fri Oct  6 19:36:57 UTC 2023 aarch64 GNU/Linux
+
+ERROR:  Could not find the BRL-CAD raytracer
+

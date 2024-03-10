@@ -1,0 +1,7 @@
++ configuring for {swet} @ Sat Mar 9 05:55:13 PM CET 2024 on Linux fedora 6.5.6-300.fc39.aarch64 #1 SMP PREEMPT_DYNAMIC Fri Oct 6 19:36:57 UTC 2023 aarch64 GNU/Linux
++ initializing ... done
++ looking for cc ... found cc
++ checking if cc works ... yes
++ looking for curses ... ___ MISSING !
++ cleaning up ... done
+make: *** No targets specified and no makefile found.  Stop.

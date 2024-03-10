@@ -1,0 +1,36 @@
+#####
+fedora workstation - Run 1
+2024-03-09 16:55:51
+#####
+Traceback (most recent call last):
+  File "/var/lib/phoronix-test-suite/installed-tests/pts/parboil-1.2.1/parboil-2.5-tree/./parboil", line 8, in <module>
+    import driver
+  File "/var/lib/phoronix-test-suite/installed-tests/pts/parboil-1.2.1/parboil-2.5-tree/driver/__init__.py", line 16
+    print "Parboil parallel benchmark suite, version 0.2"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+
+#####
+fedora workstation - Run 2
+2024-03-09 16:55:55
+#####
+Traceback (most recent call last):
+  File "/var/lib/phoronix-test-suite/installed-tests/pts/parboil-1.2.1/parboil-2.5-tree/./parboil", line 8, in <module>
+    import driver
+  File "/var/lib/phoronix-test-suite/installed-tests/pts/parboil-1.2.1/parboil-2.5-tree/driver/__init__.py", line 16
+    print "Parboil parallel benchmark suite, version 0.2"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+
+#####
+fedora workstation - Run 3
+2024-03-09 16:55:57
+#####
+Traceback (most recent call last):
+  File "/var/lib/phoronix-test-suite/installed-tests/pts/parboil-1.2.1/parboil-2.5-tree/./parboil", line 8, in <module>
+    import driver
+  File "/var/lib/phoronix-test-suite/installed-tests/pts/parboil-1.2.1/parboil-2.5-tree/driver/__init__.py", line 16
+    print "Parboil parallel benchmark suite, version 0.2"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+

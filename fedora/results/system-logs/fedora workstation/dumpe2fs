@@ -1,0 +1,57 @@
+dumpe2fs 1.47.0 (5-Feb-2023)
+Filesystem volume name:   
+Last mounted on:          /
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      has_journal ext_attr resize_inode dir_index orphan_file filetype needs_recovery extent 64bit flex_bg metadata_csum_seed sparse_super large_file huge_file dir_nlink extra_isize metadata_csum orphan_present
+Filesystem flags:         unsigned_directory_hash 
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              8290304
+Block count:              33138176
+Reserved block count:     1656908
+Overhead clusters:        666855
+Free blocks:              30751455
+Free inodes:              8148468
+First block:              0
+Block size:               4096
+Fragment size:            4096
+Group descriptor size:    64
+Reserved GDT blocks:      1024
+Blocks per group:         32768
+Fragments per group:      32768
+Inodes per group:         8192
+Inode blocks per group:   512
+Flex block group size:    16
+Filesystem created:       Sat Mar  9 17:11:25 2024
+Last mount time:          Sat Mar  9 17:19:47 2024
+Last write time:          Sat Mar  9 17:19:46 2024
+Mount count:              2
+Maximum mount count:      -1
+Last checked:             Sat Mar  9 17:11:25 2024
+Check interval:           0 ()
+Lifetime writes:          9 GB
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:	          256
+Required extra isize:     32
+Desired extra isize:      32
+Journal inode:            8
+Default directory hash:   half_md4
+Journal backup:           inode blocks
+Checksum type:            crc32c
+Checksum:                 0xb1c9c0f8
+Orphan file inode:        12
+Journal features:         journal_incompat_revoke journal_64bit journal_checksum_v3
+Total journal size:       512M
+Total journal blocks:     131072
+Max transaction length:   131072
+Fast commit length:       0
+Journal sequence:         0x0000097e
+Journal start:            113491
+Journal checksum type:    crc32c
+Journal checksum:         0xf8575860
+

@@ -1,0 +1,66 @@
+Module                  Size  Used by
+uinput                 24576  0
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+nf_conntrack_netbios_ns    12288  0
+nf_conntrack_broadcast    12288  1 nf_conntrack_netbios_ns
+nft_fib_inet           12288  0
+nft_fib_ipv4           12288  1 nft_fib_inet
+nft_fib_ipv6           12288  1 nft_fib_inet
+nft_fib                12288  3 nft_fib_ipv6,nft_fib_ipv4,nft_fib_inet
+nft_reject_inet        12288  0
+nf_reject_ipv4         16384  1 nft_reject_inet
+nf_reject_ipv6         24576  1 nft_reject_inet
+nft_reject             12288  1 nft_reject_inet
+nft_ct                 20480  0
+nft_chain_nat          12288  0
+nf_nat                 57344  1 nft_chain_nat
+nf_conntrack          180224  4 nf_nat,nft_ct,nf_conntrack_netbios_ns,nf_conntrack_broadcast
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+rfkill                 36864  0
+ip_set                 61440  0
+nf_tables             286720  8 nft_ct,nft_reject_inet,nft_fib_ipv6,nft_fib_ipv4,nft_chain_nat,nft_reject,nft_fib,nft_fib_inet
+nfnetlink              20480  2 nf_tables,ip_set
+qrtr                   45056  2
+sunrpc                733184  1
+binfmt_misc            24576  1
+snd_hda_codec_generic    90112  1
+ledtrig_audio          12288  1 snd_hda_codec_generic
+snd_hda_intel          57344  0
+snd_intel_dspcfg       20480  1 snd_hda_intel
+snd_hda_codec         192512  2 snd_hda_codec_generic,snd_hda_intel
+snd_hda_core          135168  3 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
+snd_hwdep              20480  1 snd_hda_codec
+snd_seq               110592  7 snd_seq_dummy
+snd_seq_device         16384  1 snd_seq
+virtio_balloon         28672  0
+snd_pcm               167936  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_timer              49152  3 snd_seq,snd_hrtimer,snd_pcm
+snd                   135168  10 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_pcm
+soundcore              16384  1 snd
+acpi_tad               20480  0
+pktcdvd                57344  0
+vfat                   20480  1
+fat                    98304  1 vfat
+joydev                 32768  0
+loop                   36864  0
+zram                   32768  2
+crct10dif_ce           12288  1
+polyval_ce             12288  0
+virtio_net             69632  0
+polyval_generic        12288  1 polyval_ce
+ghash_ce               20480  0
+virtio_gpu             77824  0
+sha3_ce                16384  0
+net_failover           20480  1 virtio_net
+sha512_ce              12288  0
+sha512_arm64           16384  1 sha512_ce
+failover               12288  1 net_failover
+virtio_dma_buf         12288  1 virtio_gpu
+virtio_mmio            20480  0
+ahci_platform          12288  3
+libahci_platform       24576  1 ahci_platform
+ip6_tables             32768  0
+ip_tables              32768  0
+fuse                  180224  1
