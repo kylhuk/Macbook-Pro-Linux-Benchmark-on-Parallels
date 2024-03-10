@@ -1,0 +1,13 @@
+#####
+arch result - Run 1
+2024-03-09 02:21:45
+#####
+WARNING: Passing unknown option [-P4] to RT
+B R L - C A D   B E N C H M A R K
+=================================
+Running ./bench/benchmark on Sat Mar  9 03:21:45 AM CET 2024
+Logging output to run-270839-benchmark.log
+Linux myhostname 6.7.8-1-aarch64-ARCH #1 SMP PREEMPT_DYNAMIC Sun Mar  3 16:07:37 MST 2024 aarch64 GNU/Linux
+
+ERROR:  Could not find the BRL-CAD raytracer
+

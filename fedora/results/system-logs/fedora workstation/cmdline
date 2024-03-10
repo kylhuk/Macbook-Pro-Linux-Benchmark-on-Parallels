@@ -1,0 +1,1 @@
+BOOT_IMAGE=(hd0,gpt2)/vmlinuz-6.5.6-300.fc39.aarch64 root=UUID=a76cab62-0ab7-47c5-8eb5-cfb258f287a9 ro rhgb quiet

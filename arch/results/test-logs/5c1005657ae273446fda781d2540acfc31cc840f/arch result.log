@@ -1,0 +1,18 @@
+#####
+arch result - Run 1
+2024-03-09 02:20:53
+#####
+/home/root/phoronix-test-suite/installed-tests/pts/sysbench-1.1.0/sysbench: line 3: ./src/sysbench: No such file or directory
+
+#####
+arch result - Run 2
+2024-03-09 02:20:57
+#####
+/home/root/phoronix-test-suite/installed-tests/pts/sysbench-1.1.0/sysbench: line 3: ./src/sysbench: No such file or directory
+
+#####
+arch result - Run 3
+2024-03-09 02:20:59
+#####
+/home/root/phoronix-test-suite/installed-tests/pts/sysbench-1.1.0/sysbench: line 3: ./src/sysbench: No such file or directory
+

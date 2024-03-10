@@ -1,0 +1,81 @@
+
+[1mPTS_VERSION[0m = 10.8.4
+[1mPTS_CORE_VERSION[0m = 10840
+[1mPTS_RELEASE_DATE[0m = 20220703
+[1mPTS_CODENAME[0m = Nesseby
+[1mPTS_IS_CLIENT[0m = 1
+[1mPTS_IS_WEB_CLIENT[0m = 
+[1mPTS_IS_DEV_BUILD[0m = 
+[1mPTS_PHP_VERSION[0m = 8.2.7
+[1mQUICK_START[0m = 
+[1mPTS_CORE_PATH[0m = /usr/share/phoronix-test-suite/pts-core/
+[1mPTS_INTERNAL_OB_CACHE[0m = /usr/share/phoronix-test-suite/ob-cache/
+[1mPTS_IS_DAEMONIZED_SERVER_PROCESS[0m = 1
+[1mPTS_USER_PATH[0m = /var/lib/phoronix-test-suite/
+[1mPTS_CORE_STORAGE[0m = /var/lib/phoronix-test-suite/core.pt2so
+[1mPTS_DOWNLOAD_CACHE_PATH[0m = /var/cache/phoronix-test-suite/download-cache/
+[1mPTS_OPENBENCHMARKING_SCRATCH_PATH[0m = /var/cache/phoronix-test-suite/openbenchmarking.org/
+[1mPTS_TEST_PROFILE_PATH[0m = /var/lib/phoronix-test-suite/test-profiles/
+[1mPTS_TEST_SUITE_PATH[0m = /var/lib/phoronix-test-suite/test-suites/
+[1mPTS_CORE_STATIC_PATH[0m = /usr/share/phoronix-test-suite/pts-core/static/
+[1mPTS_SHARE_PATH[0m = /usr/share/phoronix-test-suite/
+[1mPTS_INIT_TIME[0m = 1710020953
+[1mPTS_COMMAND_PATH[0m = /usr/share/phoronix-test-suite/pts-core/commands/
+[1mPHP_BIN[0m = php
+[1mFIRST_RUN_ON_PTS_UPGRADE[0m = 
+[1mTIME_PTS_LAUNCHED[0m = 1710020953
+[1mIS_FIRST_RUN_TODAY[0m = 
+[1mTIME_SINCE_LAST_RUN[0m = 142
+[1mPTS_TEST_INSTALL_DEFAULT_PATH[0m = /var/lib/phoronix-test-suite/installed-tests/
+[1mPTS_SAVE_RESULTS_PATH[0m = /var/lib/phoronix-test-suite/test-results/
+[1mPTS_USER_LOCK[0m = /var/lib/phoronix-test-suite/run-lock-1502
+[1mPTS_STARTUP_TASK_PERFORMED[0m = 1
+[1mHAS_REFRESHED_OBO_LIST[0m = 1
+
+Variables That Can Be Used As Result Identifiers / File Names:
+[1mVIDEO_RESOLUTION[0m = 1024x768
+[1mVIDEO_CARD[0m = Red Hat Virtio 1.0 GPU
+[1mVIDEO_DRIVER[0m = 
+[1mOPENGL_DRIVER[0m = 
+[1mOPERATING_SYSTEM[0m = Debian 12
+[1mPROCESSOR[0m = ARMv8 (4 Cores)
+[1mMOTHERBOARD[0m = Parallels ARM Virtual Machine v0.1 (19.3.0 54924 BIOS)
+[1mCHIPSET[0m = 
+[1mKERNEL_VERSION[0m = 6.1.0-18-arm64
+[1mCOMPILER[0m = GCC 12.2.0
+[1mHOSTNAME[0m = bad
+
+Environment Variables (accessible via test scripts):
+[1mPTS_VERSION[0m = 10.8.4
+[1mPTS_DIR[0m = /usr/share/phoronix-test-suite/
+[1mPTS_LAUNCHER[0m = /usr/bin/phoronix-test-suite
+[1mPHP_BIN[0m = php
+[1mNUM_CPU_CORES[0m = 4
+[1mOMP_NUM_THREADS[0m = 4
+[1mNUM_CPU_PHYSICAL_CORES[0m = 4
+[1mNUM_CPU_PHYSICAL_CORES_CUBE[0m = 1
+[1mCPU_THREADS_PER_CORE[0m = 1
+[1mNUM_CPU_NODES[0m = 1
+[1mNUM_CPU_JOBS[0m = 8
+[1mSYS_MEMORY[0m = 8192
+[1mVIDEO_MEMORY[0m = 64
+[1mVIDEO_WIDTH[0m = 1024
+[1mVIDEO_HEIGHT[0m = 768
+[1mVIDEO_MONITOR_COUNT[0m = 1
+[1mVIDEO_MONITOR_LAYOUT[0m = CENTER
+[1mVIDEO_MONITOR_SIZES[0m = 1024x768
+[1mOPERATING_SYSTEM[0m = debian
+[1mOS_VERSION[0m = 12
+[1mOS_ARCH[0m = aarch64
+[1mOS_TYPE[0m = Linux
+[1mCPU_FAMILY[0m = 
+[1mTHIS_RUN_TIME[0m = 1710020953
+[1mDEBUG_REAL_HOME[0m = /root/
+[1mDEBUG_PATH[0m = /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+[1mSYSTEM_TYPE_ID[0m = E
+[1mSYSTEM_TYPE[0m = Embedded
+[1mTERMINAL_WIDTH[0m = 120
+[1mC_CXX_FLAGS_DEFAULT[0m = -O3 -march=native
+[1mGPU_DEVICE_ID[0m = 1050
+
+

@@ -1,0 +1,92 @@
++ configuring for {swet} @ Fri Mar 8 10:46:59 PM CET 2024 on Linux myhostname 6.7.8-1-aarch64-ARCH #1 SMP PREEMPT_DYNAMIC Sun Mar 3 16:07:37 MST 2024 aarch64 GNU/Linux
++ initializing ... done
++ looking for cc ... found cc
++ checking if cc works ... yes
++ looking for curses ... found curses
++ looking for termio ... found asm/termios
++ checking if libm works ... yes
++ checking if librt works ... yes
++ checking for long-double ... good
++ checking for powf() ... good
++ checking for powl() ... good
++ checking for sinl() ... good
++ checking for logl() ... good
++ checking for sqrtl() ... good
++ creating Makefile ... done
++ o.s.-specific adjustments ... done
++ general adjustments ... done
++ cleaning up ... done
+make[1]: Entering directory '/home/root/phoronix-test-suite/installed-tests/pts/swet-1.0.0/swet1'
+cc -Wall -Wextra -D_GNU_SOURCE -DSTRIVE  -o swet swet.c grand.c snout.c zest.c -lm -lpthread `cat curses.ld` `cat rt.ld`
+swet.c: In function ‘swet320’:
+swet.c:1194:22: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1194 |         register int rd ;
+      |                      ^~
+swet.c: In function ‘swet323’:
+swet.c:1209:22: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1209 |         register int rd ;
+      |                      ^~
+swet.c: In function ‘swet325’:
+swet.c:1226:22: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1226 |         register int rd ;
+      |                      ^~
+swet.c: In function ‘swet401’:
+swet.c:1276:22: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1276 |         register int rd ;
+      |                      ^~
+swet.c: In function ‘swet402’:
+swet.c:1296:28: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1296 |         register long long rd ;
+      |                            ^~
+swet.c: In function ‘swet403’:
+swet.c:1316:25: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1316 |         register double rd ;
+      |                         ^~
+swet.c: In function ‘swet404’:
+swet.c:1338:30: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1338 |         register long double rd ;
+      |                              ^~
+swet.c: In function ‘swet501’:
+swet.c:1489:16: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1489 |         double rd ;
+      |                ^~
+swet.c: In function ‘swet502’:
+swet.c:1504:16: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1504 |         double rd ;
+      |                ^~
+swet.c: In function ‘swet503’:
+swet.c:1519:16: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1519 |         double rd ;
+      |                ^~
+swet.c: In function ‘swet521’:
+swet.c:1538:21: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1538 |         long double rd ;
+      |                     ^~
+swet.c: In function ‘swet522’:
+swet.c:1557:21: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1557 |         long double rd ;
+      |                     ^~
+swet.c: In function ‘swet523’:
+swet.c:1576:21: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1576 |         long double rd ;
+      |                     ^~
+swet.c: In function ‘swet701’:
+swet.c:1615:22: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1615 |         register int rd ;
+      |                      ^~
+swet.c: In function ‘swet702’:
+swet.c:1627:22: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1627 |         register int rd ;
+      |                      ^~
+swet.c: In function ‘swet703’:
+swet.c:1639:22: warning: variable ‘rd’ set but not used [-Wunused-but-set-variable]
+ 1639 |         register int rd ;
+      |                      ^~
+zest.c: In function ‘getosvers’:
+zest.c:126:35: warning: ‘.’ directive writing 1 byte into a region of size between 0 and 64 [-Wformat-overflow=]
+  126 |                 sprintf (tbuf, "%s.%s", unp->version, unp->release) ;
+      |                                   ^
+zest.c:126:17: note: ‘sprintf’ output between 2 and 130 bytes into a destination of size 64
+  126 |                 sprintf (tbuf, "%s.%s", unp->version, unp->release) ;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/home/root/phoronix-test-suite/installed-tests/pts/swet-1.0.0/swet1'

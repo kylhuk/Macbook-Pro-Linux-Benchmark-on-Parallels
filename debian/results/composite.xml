@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>debian workstation</Title>
+    <LastModified>2024-03-09 20:37:25</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>parallels testing on Debian 12 via the Phoronix Test Suite.</Description>
+    <Notes></Notes>
+    <InternalTags></InternalTags>
+    <ReferenceID></ReferenceID>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>debian workstation</Identifier>
+    <Hardware>Processor: ARMv8 (4 Cores), Motherboard: Parallels ARM Virtual Machine v0.1 (19.3.0 54924 BIOS), Memory: 8GB, Disk: 137GB Debian GNU Linux, Graphics: Red Hat Virtio 1.0 GPU, Audio: Generic 1ab8, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Debian 12, Kernel: 6.1.0-18-arm64 (aarch64), Display Server: X Server 1.21.1.7, Compiler: GCC 12.2.0, File-System: ext4, Screen Resolution: 1024x768, System Layer: parallels</Software>
+    <User>root</User>
+    <TimeStamp>2024-03-09 17:13:25</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=aarch64-linux-gnu --disable-libquadmath --disable-libquadmath-support --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-fix-cortex-a53-843419 --enable-gnu-unique-object --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --enable-libphobos-checking=release --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc=auto --enable-plugin --enable-shared --enable-threads=posix --host=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --target=aarch64-linux-gnu --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-target-system-zlib=auto -v","kernel-extra-details":"Transparent Huge Pages: always","python":"Python 3.11.2","security":"gather_data_sampling: Not affected + itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + mmio_stale_data: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of __user pointer sanitization + spectre_v2: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <System>
+    <Identifier>debian workstation 2</Identifier>
+    <Hardware>Processor: ARMv8 (4 Cores), Motherboard: Parallels ARM Virtual Machine v0.1 (19.3.0 54924 BIOS), Memory: 8GB, Disk: 137GB Debian GNU Linux, Graphics: Red Hat Virtio 1.0 GPU, Audio: Generic 1ab8, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Debian 12, Kernel: 6.1.0-18-arm64 (aarch64), Display Server: X Server 1.21.1.7, Compiler: GCC 12.2.0, File-System: ext4, Screen Resolution: 1024x768, System Layer: parallels</Software>
+    <User>root</User>
+    <TimeStamp>2024-03-09 18:07:26</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=aarch64-linux-gnu --disable-libquadmath --disable-libquadmath-support --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-fix-cortex-a53-843419 --enable-gnu-unique-object --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --enable-libphobos-checking=release --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc=auto --enable-plugin --enable-shared --enable-threads=posix --host=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --target=aarch64-linux-gnu --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-target-system-zlib=auto -v","kernel-extra-details":"Transparent Huge Pages: always","python":"Python 3.11.2","security":"gather_data_sampling: Not affected + itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + mmio_stale_data: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of __user pointer sanitization + spectre_v2: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <System>
+    <Identifier>debian workstation 3</Identifier>
+    <Hardware>Processor: ARMv8 (4 Cores), Motherboard: Parallels ARM Virtual Machine v0.1 (19.3.0 54924 BIOS), Memory: 1 x 8 GB DRAM, Disk: 137GB Debian GNU Linux, Graphics: Red Hat Virtio 1.0 GPU, Audio: Generic 1ab8, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Debian 12, Kernel: 6.1.0-18-arm64 (aarch64), Display Server: X Server 1.21.1.7, Compiler: GCC 12.2.0, File-System: ext4, Screen Resolution: 1024x768, System Layer: parallels</Software>
+    <User>root</User>
+    <TimeStamp>2024-03-09 19:32:35</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=aarch64-linux-gnu --disable-libquadmath --disable-libquadmath-support --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-fix-cortex-a53-843419 --enable-gnu-unique-object --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --enable-libphobos-checking=release --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc=auto --enable-plugin --enable-shared --enable-threads=posix --host=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --target=aarch64-linux-gnu --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-target-system-zlib=auto -v","kernel-extra-details":"Transparent Huge Pages: always","python":"Python 3.11.2","security":"gather_data_sampling: Not affected + itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + mmio_stale_data: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of __user pointer sanitization + spectre_v2: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/parboil-1.2.1</Identifier>
+    <Title>Parboil</Title>
+    <AppVersion>2.5</AppVersion>
+    <Arguments>cutcp omp_base large</Arguments>
+    <Description>Test: OpenMP CUTCP</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.00:0.01:0.01","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: \/usr\/bin\/env: \u2018python\u2019: No such file or directory"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>debian workstation 2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: \/usr\/bin\/env: \u2018python\u2019: No such file or directory"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: \/usr\/bin\/env: \u2018python\u2019: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rodinia-1.3.2</Identifier>
+    <Title>Rodinia</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>OMP_LAVAMD</Arguments>
+    <Description>Test: OpenMP LavaMD</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 2</Identifier>
+        <Value>245.942</Value>
+        <RawString>245.955:245.97:245.9</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"245.96:245.97:245.90"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>245.909</Value>
+        <RawString>246.272:245.749:245.706</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"246.27:245.75:245.71"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rodinia-1.3.2</Identifier>
+    <Title>Rodinia</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>OMP_CFD</Arguments>
+    <Description>Test: OpenMP CFD Solver</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 2</Identifier>
+        <Value>13.993</Value>
+        <RawString>13.982:13.967:14.031</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"13.98:13.97:14.03"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>13.976</Value>
+        <RawString>13.962:13.986:13.979</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -lOpenCL"},"test-run-times":"13.96:13.99:13.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/x265-1.3.0</Identifier>
+    <Title>x265</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
+    <Description>Video Input: Bosphorus 4K</Description>
+    <Scale>Frames Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>4.68</Value>
+        <RawString>5.29:5.26:0.39:5.32:5.31:5.27:5.28:5.3</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O3 -rdynamic -lpthread -lrt -ldl -lnuma"},"test-run-times":"113.45:114.05:1530.51:112.89:113.16:113.86:113.78:113.24"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/x265-1.3.0</Identifier>
+    <Title>x265</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
+    <Description>Video Input: Bosphorus 1080p</Description>
+    <Scale>Frames Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>24.30</Value>
+        <RawString>24.35:24.41:24.13</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O3 -rdynamic -lpthread -lrt -ldl -lnuma"},"test-run-times":"24.67:24.60:24.89"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/himeno-1.3.0</Identifier>
+    <Title>Himeno Benchmark</Title>
+    <AppVersion>3.0</AppVersion>
+    <Arguments></Arguments>
+    <Description>Poisson Pressure Solver</Description>
+    <Scale>MFLOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>9320.969418</Value>
+        <RawString>9240.332682:9315.968978:9406.606594</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"},"test-run-times":"27.60:25.10:28.17"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/swet-1.0.0</Identifier>
+    <Title>Swet</Title>
+    <AppVersion>1.5.16</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":""},"test-run-times":"0.00:0.00:0.00","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. E: .\/swet: 3: .\/swet: not found"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sysbench-1.1.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>1.0.20</AppVersion>
+    <Arguments>memory run</Arguments>
+    <Description>Test: Memory</Description>
+    <Scale>MiB/sec</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>7937.14</Value>
+        <RawString>8005.87:7935.42:7870.13</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -funroll-loops -rdynamic -ldl -laio -lm"},"test-run-times":"12.80:12.91:13.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sysbench-1.1.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>1.0.20</AppVersion>
+    <Arguments>cpu run</Arguments>
+    <Description>Test: CPU</Description>
+    <Scale>Events Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>39861.24</Value>
+        <RawString>39866.7:39837.89:39879.13</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -funroll-loops -rdynamic -ldl -laio -lm"},"test-run-times":"90.01:90.01:90.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/git-1.1.0</Identifier>
+    <Title>Git</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>Time To Complete Common Git Commands</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value>37.367</Value>
+        <RawString>37.33:37.581:37.189</RawString>
+        <JSON>{"install-footnote":"git version 2.39.2","test-run-times":"37.33:37.58:37.19"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/brl-cad-1.5.0</Identifier>
+    <Title>BRL-CAD</Title>
+    <AppVersion>7.36</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>VGR Performance Metric</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>debian workstation 3</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-std=c++14 -pipe -fvisibility=hidden -fno-strict-aliasing -fno-common -fexceptions -ftemplate-depth-128 -ggdb3 -O3 -fipa-pta -fstrength-reduce -finline-functions -flto -ldl -lm"},"test-run-times":"0.03","error":"The test quit with a non-zero exit status. E: ERROR:  Could not find the BRL-CAD raytracer"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

@@ -1,0 +1,13 @@
+#####
+debian workstation 3 - Run 1
+2024-03-09 20:37:25
+#####
+WARNING: Passing unknown option [-P4] to RT
+B R L - C A D   B E N C H M A R K
+=================================
+Running ./bench/benchmark on Sat Mar  9 02:37:25 PM CST 2024
+Logging output to run-39484-benchmark.log
+Linux bad 6.1.0-18-arm64 #1 SMP Debian 6.1.76-1 (2024-02-01) aarch64 GNU/Linux
+
+ERROR:  Could not find the BRL-CAD raytracer
+

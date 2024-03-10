@@ -1,0 +1,39 @@
+#####
+fedora workstation - Run 1
+2024-03-09 17:00:22
+#####
+Configuration used: cores = 4, boxes1d = 96
+Time spent in different stages of CPU/MCPU KERNEL:
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: VARIABLES
+ 0.000019999999 s,  0.000007997832 % : MCPU: SET DEVICE
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: INPUTS
+250.067779541016 s, 99.999992370605 % : CPU/MCPU: KERNEL
+Total time:
+250.067794799805 s
+
+#####
+fedora workstation - Run 2
+2024-03-09 17:04:40
+#####
+Configuration used: cores = 4, boxes1d = 96
+Time spent in different stages of CPU/MCPU KERNEL:
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: VARIABLES
+ 0.000006000000 s,  0.000002394497 % : MCPU: SET DEVICE
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: INPUTS
+250.574523925781 s, 100.000000000000 % : CPU/MCPU: KERNEL
+Total time:
+250.574523925781 s
+
+#####
+fedora workstation - Run 3
+2024-03-09 17:08:55
+#####
+Configuration used: cores = 4, boxes1d = 96
+Time spent in different stages of CPU/MCPU KERNEL:
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: VARIABLES
+ 0.000006000000 s,  0.000002396381 % : MCPU: SET DEVICE
+ 0.000000000000 s,  0.000000000000 % : CPU/MCPU: INPUTS
+250.377502441406 s, 99.999992370605 % : CPU/MCPU: KERNEL
+Total time:
+250.377517700195 s
+

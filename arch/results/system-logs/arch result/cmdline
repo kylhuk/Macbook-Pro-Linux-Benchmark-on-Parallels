@@ -1,0 +1,1 @@
+root=PARTUUID=9cb1ff42-51ad-4705-8d62-1985fc1cb59b rootfstype=ext4 rw rootflags=rw,noatime

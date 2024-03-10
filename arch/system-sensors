@@ -1,0 +1,41 @@
+
+
+Phoronix Test Suite v10.8.4
+Supported Sensors For This System
+
+cpu.peak-freq    CPU Peak Freq (Highest CPU Core Frequency):  -1   Megahertz 
+cpu.usage        CPU Usage (CPU0):                            0.00 Percent   
+cpu.usage        CPU Usage (CPU1):                            0.00 Percent   
+cpu.usage        CPU Usage (CPU2):                            0.00 Percent   
+cpu.usage        CPU Usage (CPU3):                            0.00 Percent   
+cpu.usage        CPU Usage (Summary):                         0.00 Percent   
+gpu.fan-speed    GPU Fan Speed:                               100  Percent   
+hdd.read-speed   Drive Read Speed (sda):                      0.00 MB/s      
+hdd.write-speed  Drive Write Speed (sda):                     0.00 MB/s      
+memory.usage     Memory Usage:                                95   Megabytes 
+swap.usage       Swap Usage:                                  0    Megabytes 
+sys.iowait       System Iowait:                               0.00 Percent   
+
+Unsupported Sensors For This System
+
+- Ambient Temperature
+- Cgroup Cpu Usage
+- CPU Fan Speed
+- CPU Frequency
+- CPU Power Consumption
+- CPU Temperature
+- CPU Voltage
+- GPU Frequency
+- GPU Memory Usage
+- GPU Power Consumption
+- GPU Temperature
+- GPU Usage
+- GPU Voltage
+- Drive Temperature
+- Memory Temperature
+- System Fan Speed
+- System Power Consumption
+- System Temperature
+- System Voltage
+
+

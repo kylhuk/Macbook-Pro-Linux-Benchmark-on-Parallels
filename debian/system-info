@@ -1,0 +1,45 @@
+
+
+[1;32mPhoronix Test Suite v10.8.4[0m
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:              [1;32mARMv8[0m
+    [1mCore Count[0m:           4                
+
+  [1;30mGRAPHICS[0m:               [1;32mRed Hat Virtio 1.0 GPU[0m
+    [1mScreen[0m:               1024x768         
+
+  [1;30mMOTHERBOARD[0m:            [1;32mParallels ARM Virtual Machine v0.1[0m
+    [1mBIOS Version[0m:         19.3.0 54924          
+    [1mAudio[0m:                Generic 1ab8          
+    [1mNetwork[0m:              Red Hat Virtio device 
+
+  [1;30mMEMORY[0m:                 [1;32m8GB[0m
+
+  [1;30mDISK[0m:                   [1;32m137GB Debian GNU Linux[0m
+    [1mFile-System[0m:          ext4                          
+    [1mMount Options[0m:        errors=remount-ro relatime rw 
+    [1mDisk Scheduler[0m:       MQ-DEADLINE                   
+    [1mDisk Details[0m:         Block Size: 4096              
+
+  [1;30mOPERATING SYSTEM[0m:       [1;32mDebian 12[0m
+    [1mKernel[0m:               6.1.0-18-arm64 (aarch64)                                  
+    [1mDesktop[0m:              Xfce                                                      
+    [1mDisplay Server[0m:       X Server 1.21.1.7                                         
+    [1mCompiler[0m:             GCC 12.2.0                                                
+    [1mSystem Layer[0m:         parallels                                                 
+    [1mSecurity[0m:             gather_data_sampling: Not affected                        
+    [1m [0m                     + itlb_multihit: Not affected                             
+    [1m [0m                     + l1tf: Not affected                                      
+    [1m [0m                     + mds: Not affected                                       
+    [1m [0m                     + meltdown: Not affected                                  
+    [1m [0m                     + mmio_stale_data: Not affected                           
+    [1m [0m                     + retbleed: Not affected                                  
+    [1m [0m                     + spec_rstack_overflow: Not affected                      
+    [1m [0m                     + spec_store_bypass: Mitigation of SSB disabled via prctl 
+    [1m [0m                     + spectre_v1: Mitigation of __user pointer sanitization   
+    [1m [0m                     + spectre_v2: Not affected                                
+    [1m [0m                     + srbds: Not affected                                     
+    [1m [0m                     + tsx_async_abort: Not affected                           
+

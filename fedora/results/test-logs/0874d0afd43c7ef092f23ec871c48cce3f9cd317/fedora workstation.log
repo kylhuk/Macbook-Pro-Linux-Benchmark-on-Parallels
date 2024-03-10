@@ -1,0 +1,126 @@
+#####
+fedora workstation - Run 1
+2024-03-09 17:24:39
+#####
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 102400MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 104857600 (8235927.94 per second)
+
+102400.00 MiB transferred (8042.90 MiB/sec)
+
+
+General statistics:
+    total time:                          12.7312s
+    total number of events:              104857600
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.11
+         95th percentile:                        0.00
+         sum:                                44359.51
+
+Threads fairness:
+    events (avg/stddev):           26214400.0000/0.00
+    execution time (avg/stddev):   11.0899/0.01
+
+
+#####
+fedora workstation - Run 2
+2024-03-09 17:24:56
+#####
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 102400MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 104857600 (8179481.60 per second)
+
+102400.00 MiB transferred (7987.77 MiB/sec)
+
+
+General statistics:
+    total time:                          12.8192s
+    total number of events:              104857600
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.12
+         95th percentile:                        0.00
+         sum:                                44798.22
+
+Threads fairness:
+    events (avg/stddev):           26214400.0000/0.00
+    execution time (avg/stddev):   11.1996/0.00
+
+
+#####
+fedora workstation - Run 3
+2024-03-09 17:25:11
+#####
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 102400MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 104857600 (8166545.84 per second)
+
+102400.00 MiB transferred (7975.14 MiB/sec)
+
+
+General statistics:
+    total time:                          12.8394s
+    total number of events:              104857600
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.12
+         95th percentile:                        0.00
+         sum:                                44598.94
+
+Threads fairness:
+    events (avg/stddev):           26214400.0000/0.00
+    execution time (avg/stddev):   11.1497/0.03
+
+

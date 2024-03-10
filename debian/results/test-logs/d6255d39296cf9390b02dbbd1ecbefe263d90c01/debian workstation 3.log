@@ -1,0 +1,63 @@
+#####
+debian workstation 3 - Run 1
+2024-03-09 20:28:02
+#####
+mimax = 64 mjmax = 64 mkmax = 128
+imax = 63 jmax = 63 kmax =127
+ Start rehearsal measurement process.
+ Measure the performance in 3 times.
+
+ MFLOPS: 4245.816180 time(s): 0.011174 3.288634e-03
+
+ Now, start the actual measurement process.
+ The loop will be excuted in 16108 times
+ This will take about one minute.
+ Wait for a while
+
+ Loop executed for 16108 times
+ Gosa : 7.250543e-11 
+ MFLOPS measured : 9240.332682	cpu : 27.567832
+ Score based on Pentium III 600MHz using Fortran 77: 112.686984
+
+#####
+debian workstation 3 - Run 2
+2024-03-09 20:28:31
+#####
+mimax = 64 mjmax = 64 mkmax = 128
+imax = 63 jmax = 63 kmax =127
+ Start rehearsal measurement process.
+ Measure the performance in 3 times.
+
+ MFLOPS: 3892.898170 time(s): 0.012187 3.288634e-03
+
+ Now, start the actual measurement process.
+ The loop will be excuted in 14769 times
+ This will take about one minute.
+ Wait for a while
+
+ Loop executed for 14769 times
+ Gosa : 7.357096e-11 
+ MFLOPS measured : 9315.968978	cpu : 25.071000
+ Score based on Pentium III 600MHz using Fortran 77: 113.609378
+
+#####
+debian workstation 3 - Run 3
+2024-03-09 20:29:01
+#####
+mimax = 64 mjmax = 64 mkmax = 128
+imax = 63 jmax = 63 kmax =127
+ Start rehearsal measurement process.
+ Measure the performance in 3 times.
+
+ MFLOPS: 4412.047801 time(s): 0.010753 3.288634e-03
+
+ Now, start the actual measurement process.
+ The loop will be excuted in 16739 times
+ This will take about one minute.
+ Wait for a while
+
+ Loop executed for 16739 times
+ Gosa : 7.250543e-11 
+ MFLOPS measured : 9406.606594	cpu : 28.141363
+ Score based on Pentium III 600MHz using Fortran 77: 114.714715
+
